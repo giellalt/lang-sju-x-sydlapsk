@@ -1,0 +1,15 @@
+!! Noun inflection
+!  ---------------
+!! The 18th century Southern Saami language nouns inflect in number and cases.
+
+LEXICON Cases
+ +N+Sg+Nom:0   #     ;
+ +N+Pl+Nom:i   #     ;
+ +N+Sg+Acc:at  #     ;
+ +N+Pl+Acc:iat #     ;
+ +N+Sg+Loc:as  #     ;
+ +N+Pl+Loc:ias #     ;
+         #:0   Nouns ; ! Normally going via a R lexicon adding compound tags.
+
+! vim: set ft=xfst-lexc:
+

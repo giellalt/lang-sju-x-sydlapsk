@@ -1,0 +1,24 @@
+# This file should contain language specific, non-standard spelling variants
+# e.g. if most people write s instead of š, including it in this file makes
+# it available in descriptive analysers
+#
+# Explanation:
+# lexical side (->) input 
+
+đ (->) ð, # đ written with ð
+ŋ (->) ń, # ŋ written as ń 
+ŋ (->) ñ, # ŋ written as ñ
+æ (->) ä, # Norwegian æ written with Swedish / Finnish ä
+Æ (->) Ä, # same with capitals
+ø (->) ö, # Norwegian ø written with Swedish / Finnish ö
+Ø (->) Ö, # capitals
+ä (->) æ, # vice versa
+Ä (->) Æ, # capitals
+ö (->) ø, # vice versa
+Ö (->) Ø, # capitals
+І (->) I, # Cyrillic I written with latin I
+і (->) i, # Cyrillic i written with latin i
+Ӧ (->) Ö, # Cyrillic Ö written with latin Ö
+ӧ (->) ö, # Cyrillic ö written with latin ö
+ˊ (->) ´ # Modifier letter acute accent written with acute accent
+;

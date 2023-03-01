@@ -1,0 +1,8 @@
+!! Verbs
+!  -----
+!! Verbs in the 18th century Southern Saami language inflect for tense.
+
+LEXICON Verbs
+verb    Persons   ;
+
+! vim: set ft=xfst-lexc:

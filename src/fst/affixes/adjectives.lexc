@@ -1,0 +1,11 @@
+!! Adjective inflection
+!  --------------------
+!! The 18th century Southern Saami language adjectives compare.
+
+LEXICON Comparisons
++A+Pos:0        Cases   ;
++A+Comp:er       Cases   ;
++A+Superl:est      Cases   ;
+
+! vim: set ft=xfst-lexc:
+

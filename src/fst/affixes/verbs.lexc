@@ -1,0 +1,15 @@
+!! Verb inflection
+!  ---------------
+!! The 18th century Southern Saami language verbs inflect in persons.
+
+LEXICON Persons
++V+Inf:0    #   ;
++V+Sg1:en   #   ;
++V+Sg2:et   #   ;
++V+Sg3:e    #   ;
++V+Pl1:ien  #   ;
++V+Pl2:iet  #   ;
++V+Pl3:iet  #   ;
+
+! vim: set ft=xfst-lexc:
+

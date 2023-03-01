@@ -1,0 +1,10 @@
+!! Prefixes
+!  --------
+!! Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
+
+LEXICON Prefixes
+nounprefix-     Nouns   ;
+verbprefix-     Verbs   ;
+
+
+! vim: set ft=xfst-lexc:

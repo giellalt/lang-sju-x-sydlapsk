@@ -1,0 +1,10 @@
+template = ""
+rev_id = 123
+template_sha = "ae8290d1da5c1033ee2bd04187489a168460cf3b"
+
+[replacements]
+__LICENSE__ = "GPLv3"
+__REPO__ = "sju-x-sydlapsk"
+__UND2C__ = "sju-x-sydlapsk"
+__UNDEFINED__ = "18th century Southern Saami"
+__UND__ = "sju-x-sydlapsk"
