@@ -5,11 +5,15 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
 [![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
 
-This page documents the work on the **18th century Southern Saami language model**. 
+This page documents work on a language model for **18th century Southern Saami**, also known as **Sydlapska bokspråket**. 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+Forthcoming
+
+# Background material
+
+- Ihre, Johan & Öhrling, Johannes 1742: [Exercitium academicum, Nonnullas in orthographiam Lapponicam observationes sistens, quod, consentiente amplissima facultate philosoph. in incluta Academia Upsaliensi, præside viro celeberrimo mag. Johanne Ihre ..., publicæ disquisitioni modeste submittit alumnus Regius & Sollenianus, Johannes Öhrling, Lyksela-W-Botniensis, in auditor. Carol. Major. die 10 Aprilis anni MDCCXLII. Horis ante meridiem solitis](Ohrling_1742.pdf)
 
 # In-source documentation
 
