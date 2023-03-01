@@ -1,9 +1,9 @@
 The 18th century Southern Saami morphology and tools
 ==========================================
 
-[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/sju-x-sydlapsk)](https://github.com/giellalt/sju-x-sydlapsk/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
-[![License](https://img.shields.io/github/license/giellalt/sju-x-sydlapsk)](https://github.com/giellalt/sju-x-sydlapsk/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/lang-sju-x-sydlapsk/actions)
+[![License](https://img.shields.io/github/license/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-sju-x-sydlapsk?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-sju-x-sydlapsk?platform=mbile&channel=nightly)
 
@@ -11,7 +11,7 @@ This repository contains finite state source files for the 18th century Southern
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENSE](https://github.com/giellalt/sju-x-sydlapsk/blob/main/LICENSE). The
+[LICENSE](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -22,9 +22,9 @@ for the 18th century Southern Saami language by using the [Divvun Installer](htt
 Spell-checker accuracy:
 
 [![Speller
-Accuracy](https://img.shields.io/badge/Speller_Accuracy-XX_%25-green.svg)](https://giellalt.github.io/sju-x-sydlapsk/speller-report.html)
+Accuracy](https://img.shields.io/badge/Speller_Accuracy-XX_%25-green.svg)](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.html)
 [![Spell-checking accuracy development
-graph](https://giellalt.github.io/sju-x-sydlapsk/speller-report.svg)](https://giellalt.github.io/sju-x-sydlapsk/speller-report.svg)
+graph](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.svg)](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.svg)
 
 Download and test speller files
 -------------------------------
@@ -41,7 +41,7 @@ Documentation
 
 Documentation can be found at:
 
-- [Language specific documentation](https://giellalt.github.io/sju-x-sydlapsk/)
+- [Language specific documentation](https://giellalt.github.io/lang-sju-x-sydlapsk/)
 - [General documentation](https://giellalt.github.io/)
 
 Core dependencies
@@ -85,18 +85,18 @@ Downloading
 
 Using Git:
 ```
-git clone https://github.com/giellalt/sju-x-sydlapsk
+git clone https://github.com/giellalt/lang-sju-x-sydlapsk
 ```
 
 Using Subversion:
 ```
-svn checkout https://github.com/giellalt/sju-x-sydlapsk.git/trunk sju-x-sydlapsk
+svn checkout https://github.com/giellalt/lang-sju-x-sydlapsk.git/trunk sju-x-sydlapsk
 ```
 
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/sju-x-sydlapsk/blob/main/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
