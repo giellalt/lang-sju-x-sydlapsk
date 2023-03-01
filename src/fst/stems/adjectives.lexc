@@ -3,6 +3,8 @@
 !! Adjectives in the 18th century Southern Saami language describe the entities nouns refer to.
 
 LEXICON Adjectives
-adjective    Comparisons   ;
+stuores as "stor" ;
+puorak ac "god" ;
+nuor av "ung" ;
 
 ! vim: set ft=xfst-lexc:

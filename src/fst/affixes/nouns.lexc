@@ -4,12 +4,61 @@
 
 LEXICON Cases
  +N+Sg+Nom:0   #     ;
- +N+Pl+Nom:i   #     ;
- +N+Sg+Acc:at  #     ;
- +N+Pl+Acc:iat #     ;
- +N+Sg+Loc:as  #     ;
- +N+Pl+Loc:ias #     ;
-         #:0   Nouns ; ! Normally going via a R lexicon adding compound tags.
+
+LEXICON nv
++N+Sg+Nom: # ;
++N: nv_oblique ;
+
+
+LEXICON nv_oblique
++Sg+Gen:%>n # ;
++Sg+Acc:%>b # ;
++Sg+Ill:^EA%>i # ;
++Sg+Ela:%>st # ;
++Sg+Ine:%>sn # ;
++Sg+Ine:%>n # ;
++Sg+Com:%>in # ;
++Sg+Abe:%>t # ;
++Sg+Abe:%>tak # ;
++Sg+Abe:%>taka # ;
++Sg+Ess:%>n # ;
+
++Pl+Nom:%>h # ;
++Pl+Gen:%>i # ;
++Pl+Acc:%>it # ;
++Pl+Ill:%>it # ;
++Pl+Ill:%>iti # ;
++Pl+Ela:%>ist # ;
++Pl+Ine:%>isne # ;
++Pl+Ine:%>in # ;
++Pl+Com:%>i # ;
++Pl+Ess:%>in # ;
+
+LEXICON nc
++N: nc_cases ;
+
+LEXICON nc_cases
++Sg+Nom: # ;
++Sg+Gen:e%>n # ;
++Sg+Acc:e%>b # ;
++Sg+Ill:e%>i # ;
++Sg+Ela:e%>st # ;
++Sg+Ine:e%>sne # ;
++Sg+Ine:e%>n # ;
++Sg+Com:e%>in # ;
++Sg+Abe:a%>tta # ;
++Sg+Abe:e%>tta # ;
++Sg+Ess:e%>n # ;
+
++Pl+Nom:e%>h # ;
++Pl+Gen:e%>i # ;
++Pl+Acc:e%>it # ;
++Pl+Ill:e%>it # ;
++Pl+Ela:e%>ist # ;
++Pl+Ine:e%>isne # ;
++Pl+Ine:e%>in # ;
++Pl+Com:e%>i # ;
++Pl+Ess:e%>in # ;
 
 ! vim: set ft=xfst-lexc:
 

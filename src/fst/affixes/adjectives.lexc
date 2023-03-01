@@ -2,10 +2,16 @@
 !  --------------------
 !! The 18th century Southern Saami language adjectives compare.
 
-LEXICON Comparisons
-+A+Pos:0        Cases   ;
-+A+Comp:er       Cases   ;
-+A+Superl:est      Cases   ;
+LEXICON as
++A: # ;
+
+LEXICON ac
++A: nc_cases ;
+
+LEXICON av
++A+Sg+Nom: # ;
++A:e nv_oblique ;
+
 
 ! vim: set ft=xfst-lexc:
 

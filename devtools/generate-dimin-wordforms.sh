@@ -19,19 +19,29 @@ fi
 
 ######### USER Variables - change these to your liking: #########
 # Codes for the word forms to be generated - list as many or few as needed:
-morf_codes="+N+Prop+Sg+Nom \
-            +N+Prop+Sg+Gen \
-            +N+Prop+Sg+Ill \
-            +N+Prop+Sg+Com \
-            +N+Prop+Pl+Nom \
-            +N+Prop+Pl+Com \
-            +N+Prop+Ess"
+morf_codes="+N+Der/Dimin+N+Sg+Nom \
+            +N+Der/Dimin+N+Sg+Gen \
+            +N+Der/Dimin+N+Sg+Ill \
+            +N+Der/Dimin+N+Sg+Ine \
+            +N+Der/Dimin+N+Sg+Ela \
+            +N+Der/Dimin+N+Sg+Com \
+            +N+Der/Dimin+N+Sg+Abe \
+            +N+Der/Dimin+N+Par \
+            +N+Der/Dimin+N+Ess \
+            +N+Der/Dimin+N+Pl+Nom\
+            +N+Der/Dimin+N+Pl+Gen \
+            +N+Der/Dimin+N+Pl+Acc \
+            +N+Der/Dimin+N+Pl+Ill \
+            +N+Der/Dimin+N+Pl+Ine \
+            +N+Der/Dimin+N+Pl+Ela \
+            +N+Der/Dimin+N+Pl+Com \
+            +N+Der/Dimin+N+Pl+Abe"
 
 # Lexicon source file for lexicons and lemmas:
-source_file=src/fst/stems/smn-propernouns.lexc
+source_file=src/fst/stems/nouns.lexc
 
-# Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(flagK)"
+# Continuation lexicons that should NOT be used to extract lemmas (egrep expression):
+exception_lexicons="(nounstems|Rnoun)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/generator-gt-norm

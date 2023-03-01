@@ -9,6 +9,8 @@ Alphabet
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
+%^EA:0 
+
  %>:0 ;
 
 Sets
@@ -16,17 +18,16 @@ Sets
  Vow = a e i o u y æ ø å 
        á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
  Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
- 
+
+
 Rules
 
-"Deleting stem-final s in s genitive"
- s:0 <=> Vow s %>: _ ;
+"Delete e in front of i suffix"
+e:0 <=> _ %>:0 i ;
 
-!!€ primus%>s
-!!€ primus00
+"e to a in front of illative i"
+e:a <=> _ %^EA: %>:0 i ;
 
-!!€grís%>s
-!!€grís00
+"tj to ts in final position"
+j:s <=> t _ .#. ;
 
-!!$grís%>s
-!!$grís0s

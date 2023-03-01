@@ -22,22 +22,32 @@ fi
 morf_codes="+N+Sg+Nom \
             +N+Sg+Gen \
             +N+Sg+Ill \
+            +N+Sg+Ine \
+            +N+Sg+Ela \
             +N+Sg+Com \
-            +N+Pl+Nom \
+            +N+Sg+Abe \
+            +N+Par \
+            +N+Ess \
+            +N+Pl+Nom\
+            +N+Pl+Gen \
+            +N+Pl+Acc \
+            +N+Pl+Ill \
+            +N+Pl+Ine \
+            +N+Pl+Ela \
             +N+Pl+Com \
-            +N+Ess"
+            +N+Pl+Abe"
 
 # Lexicon source file for lexicons and lemmas:
-source_file=src/morphology/stems/nouns.lexc
+source_file=src/fst/stems/nouns.lexc
 
-# Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(flagK)"
+# Continuation lexicons that should NOT be used to extract lemmas (egrep expression):
+exception_lexicons="(nounstems|Rnoun)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/generator-gt-norm
 
 # How many lemmas maximally for each lexicon:
-lemmacount=10
+lemmacount=20
 
 # Specify path to the dir containing the script used for generation:
 script_dir=$giella_core/scripts

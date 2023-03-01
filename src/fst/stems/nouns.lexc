@@ -3,6 +3,10 @@
 !! Nouns in the 18th century Southern Saami language refer to objects or sets of objects, qualities, states or ideas.
 
 LEXICON Nouns
-noun+N:noun    Cases   ;
+attje:attje nv "pater" ;
+kabmak:kabmak nc "sko" ;
+usto:usto nv "lust" ;
+akka:akka nv " hustru" ;
+almats:almatj nc ;
 
 ! vim: set ft=xfst-lexc:
