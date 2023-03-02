@@ -7,10 +7,10 @@ LEXICON Cases
 
 LEXICON nv
 +N+Sg+Nom: # ;
-+N: nv_oblique ;
++N: xv_oblique ;
 
 
-LEXICON nv_oblique
+LEXICON xv_oblique
 +Sg+Gen:%>n # ;
 +Sg+Acc:%>b # ;
 +Sg+Ill:^EA%>i # ;
@@ -35,10 +35,10 @@ LEXICON nv_oblique
 +Pl+Ess:%>in # ;
 
 LEXICON nc
-+N: nc_cases ;
++N+Sg+Nom: # ;
++N:        xc_oblique ;
 
-LEXICON nc_cases
-+Sg+Nom: # ;
+LEXICON xc_oblique
 +Sg+Gen:e%>n # ;
 +Sg+Acc:e%>b # ;
 +Sg+Ill:e%>i # ;

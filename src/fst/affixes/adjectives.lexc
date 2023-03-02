@@ -3,14 +3,16 @@
 !! The 18th century Southern Saami language adjectives compare.
 
 LEXICON as
-+A: # ;
++A+Sg+Nom:%>es # ;
++A:as xc_oblique ;
 
 LEXICON ac
-+A: nc_cases ;
++A+Sg+Nom: # ;
++A: xc_oblique ;
 
 LEXICON av
 +A+Sg+Nom: # ;
-+A:e nv_oblique ;
++A:e xv_oblique ;
 
 
 ! vim: set ft=xfst-lexc:
