@@ -25,9 +25,17 @@ Rules
 "Delete e in front of i suffix"
 e:0 <=> _ %>:0 i ;
 
+!!€ attje>in
+!!€ attj0>in
+
 "e to a in front of illative i"
 e:a <=> _ %^EA: %>:0 i ;
+
+!!€ attje^EA>i
+!!€ attja0>i
 
 "tj to ts in final position"
 j:s <=> t _ .#. ;
 
+!!€ almatj#
+!!€ almats#
