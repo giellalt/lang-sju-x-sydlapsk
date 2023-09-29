@@ -3,7 +3,7 @@
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License](https://img.shields.io/github/license/giellalt/sju-x-sydlapsk)](https://github.com/giellalt/sju-x-sydlapsk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
 
 This page documents work on a language model for **18th century Southern Saami**, also known as **Sydlapska bokspråket**. 
 
