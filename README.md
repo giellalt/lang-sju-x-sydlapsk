@@ -2,7 +2,7 @@ The 18th century Southern Saami morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/lang-sju-x-sydlapsk/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-sju-x-sydlapsk?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-sju-x-sydlapsk?platform=mbile&channel=nightly)
