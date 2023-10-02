@@ -1,6 +1,7 @@
 The 18th century Southern Saami morphology and tools
 ==========================================
 
+[![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Fsju-x-sydlapsk%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Fsju-x-sydlapsk%2Fgh-pages%2Flemmacount.json)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/sju-x-sydlapsk/actions)
