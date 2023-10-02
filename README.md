@@ -1,5 +1,5 @@
 The 18th century Southern Saami morphology and tools
-==========================================
+====================================================
 
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Fsju-x-sydlapsk%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Fsju-x-sydlapsk%2Fgh-pages%2Flemmacount.json)
