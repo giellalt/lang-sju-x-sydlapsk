@@ -24,6 +24,13 @@ endif # WANT_SYNTAX
 
 #################################################
 #### Add language-specific build rules here: ####
+if HAVE_SHARED_SMI
+%.cg3: $(gt_SHARED_smi)/src/cg3/%.cg3
+	$(AM_V_CP)cp -f $< $@
+else
+%.cg3:
+	$(AM_V_GEN)echo "! Missing dependency for $@" > $@
+endif
 
 ##################################################################
 #### END: Add local processing instructions ABOVE this line ######
@@ -31,7 +38,7 @@ endif # WANT_SYNTAX
 
 ####### Other targets: ###########
 clean-local:
-	-rm -f *.bin
+	-rm -f *.bin functions.cg3 dependency.cg3 korp.cg3
 
 ####### Build rules via include: ########
 
