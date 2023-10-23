@@ -153,7 +153,7 @@ Correction rules
 !! __lgRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt//blob/main/src/cg3/dependency.cg3)</small>
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/dependency.cg3)</small>
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
 Sámi language technology project 2003-2018, University of Tromsø #
@@ -624,21 +624,21 @@ These were the set types.
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt//blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
 The 18th century Southern Saami language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/adjectives.lexc)</small>
 
 ---
 
 Noun inflection
-The 18th century Southern Saami language nouns inflect in number and cases.
+Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/nouns.lexc)</small>
 
 ---
 
@@ -648,7 +648,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt//blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -657,7 +657,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt//blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/symbols.lexc)</small>
 
 ---
 
@@ -666,7 +666,7 @@ The 18th century Southern Saami language verbs inflect in persons.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/verbs.lexc)</small>
 
 ---
 
@@ -685,7 +685,7 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt//blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/phonology.twolc)</small>
 
 ---
 
@@ -764,25 +764,25 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt//blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/root.lexc)</small>
 
 ---
 
 Adjectives
-Adjectives in the 18th century Southern Saami language describe the entities nouns refer to.
+Lindahl & Öhrling page XLV
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/adjectives.lexc)</small>
 
 ---
 
 Nouns
-Nouns in the 18th century Southern Saami language refer to objects or sets of objects, qualities, states or ideas.
+Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/nouns.lexc)</small>
 
 ---
 
@@ -791,7 +791,7 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt//blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/numerals.lexc)</small>
 
 ---
 
@@ -800,7 +800,7 @@ Prefixes in the 18th century Southern Saami language are attatched to the left o
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt//blob/main/src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/prefixes.lexc)</small>
 
 ---
 
@@ -809,7 +809,7 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt//blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/pronouns.lexc)</small>
 
 ---
 
@@ -818,7 +818,7 @@ Verbs in the 18th century Southern Saami language inflect for tense.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/verbs.lexc)</small>
 
 ---
 
@@ -985,7 +985,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt//blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1005,7 +1005,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt//blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1019,7 +1019,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt//blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -1320,7 +1320,7 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt//blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for sju-x-sydlapsk
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for sju-x-sydlapsk
 
 Usage:
 ```
@@ -1379,7 +1379,7 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
@@ -1442,7 +1442,7 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
@@ -1506,7 +1506,7 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
 
 ---
 
