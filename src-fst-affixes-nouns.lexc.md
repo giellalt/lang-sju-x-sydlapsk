@@ -1,5 +1,5 @@
 Noun inflection
-The 18th century Southern Saami language nouns inflect in number and cases.
+Lindahl & Öhrling page XLIVff
 
 * * *
 

@@ -1,5 +1,5 @@
 Adjectives
-Adjectives in the 18th century Southern Saami language describe the entities nouns refer to.
+Lindahl & Öhrling page XLV
 
 * * *
 

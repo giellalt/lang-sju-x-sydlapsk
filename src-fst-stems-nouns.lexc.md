@@ -1,5 +1,5 @@
 Nouns
-Nouns in the 18th century Southern Saami language refer to objects or sets of objects, qualities, states or ideas.
+Lindahl & Öhrling page XLIVff
 
 * * *
 

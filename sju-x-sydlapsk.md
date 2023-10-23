@@ -12,7 +12,7 @@ The 18th century Southern Saami language adjectives compare.
 ---
 
 Noun inflection
-The 18th century Southern Saami language nouns inflect in number and cases.
+Lindahl & Öhrling page XLIVff
 
 * * *
 
@@ -147,7 +147,7 @@ word classes, or optionally from prefixes:
 ---
 
 Adjectives
-Adjectives in the 18th century Southern Saami language describe the entities nouns refer to.
+Lindahl & Öhrling page XLV
 
 * * *
 
@@ -156,7 +156,7 @@ Adjectives in the 18th century Southern Saami language describe the entities nou
 ---
 
 Nouns
-Nouns in the 18th century Southern Saami language refer to objects or sets of objects, qualities, states or ideas.
+Lindahl & Öhrling page XLIVff
 
 * * *
 
