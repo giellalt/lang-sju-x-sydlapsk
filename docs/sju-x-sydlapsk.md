@@ -629,7 +629,7 @@ The 18th century Southern Saami language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -638,7 +638,7 @@ Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -648,7 +648,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -657,7 +657,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -666,7 +666,154 @@ The 18th century Southern Saami language verbs inflect in persons.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
+
+---
+
+
+INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
+
+# Definitions for Multichar_Symbols
+
+## Analysis symbols
+The morphological analyses of wordforms for the 18th century Southern Saami
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+
+Diacritical triggers
+
+The parts of speech are further split up into:
+
+The Usage extents are marked using following tags:
+
+The nominals are inflected in the following Case and Number
+
+The possession is marked as such:
+The comparative forms are:
+Numerals are classified under:
+Verb moods are:
+Verb personal forms are:
+Other verb forms are
+
+* +Symbol = independent symbols in the text stream, like £, €, ©
+Special symbols are classified with:
+The verbs are syntactically split according to transitivity:
+Special multiword units are analysed with:
+Non-dictionary words can be recognised with:
+
+Question and Focus particles:
+
+Semantics are classified with
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+
+Morphophonology
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+|  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+|  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear first
+|  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@ | Block these words from making further compounds
+|  @D.CmpLast.TRUE@ | Block such words from entering R
+|  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+|  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
+
+The word forms in 18th century Southern Saami language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+
+Adjective inflection
+The 18th century Southern Saami language adjectives compare.
+
+Noun inflection
+Lindahl & Öhrling page XLIVff
+
+Proper noun inflection
+The 18th century Southern Saami language proper nouns inflect in the same cases as regular
+nouns, but perhaps with a colon (':') as separator.
+
+# Symbol affixes
+
+Verb inflection
+The 18th century Southern Saami language verbs inflect in persons.
+
+Adjectives
+Lindahl & Öhrling page XLV
+
+Nouns
+Lindahl & Öhrling page XLIVff
+
+Numerals
+Numerals in the 18th century Southern Saami language describe a nuerical quantity.
+
+Prefixes
+Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
+
+Pronouns
+Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
+
+Verbs
+Verbs in the 18th century Southern Saami language inflect for tense.
+
+Punctuation symbols
+
+* __LEXICON Punctuation   __ contains the list
+of punctuation symbols:
+* Symbols like .,: are tagged with __+CLB__
+* other symbols like +.& are tagged with __+PUNCT__, and
+* paired symbols like ()«» are tagged with __+PUNCT+LEFT__
+and __+PUNCT+RIGHT__, respectively.
+
+The punctuation symbols are listed in the following groups:
+
+* Clause boundary symbols:
+* Single punctuation marks
+* Paired punctuation marks
+
+* __LEXICON PunctEnd   __ leads to # only.
+
+Symbols
+Symbols are single character special signs typically denoting whole nouns. They are different from
+abbreviations and acronyms by not consisting of regular, alphabetic letters.
+
+Symbols are syntactic constituents, and thus part of the sentence analysis. That is, they are
+different from punctuation: punctuation express syntactic boundaries of various kinds, symbols
+are syntactic constituents.
+
+__LEXICON Symbols__ contains symbols of two types: those that inflect, and those that don't.
+
+Miscellaneous symbols
+
+Symbols from Mari OCR reading. TODO: Remove non-symbols + merge with list above
+
+Smileys
+
+Emojies
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/lexicon.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/lexicon.lexc)</small>
 
 ---
 
@@ -685,7 +832,7 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -764,7 +911,7 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -773,7 +920,7 @@ Lindahl & Öhrling page XLV
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -782,7 +929,7 @@ Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -791,7 +938,7 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -800,7 +947,7 @@ Prefixes in the 18th century Southern Saami language are attatched to the left o
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
@@ -809,7 +956,7 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -818,7 +965,7 @@ Verbs in the 18th century Southern Saami language inflect for tense.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -985,7 +1132,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1005,7 +1152,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1019,7 +1166,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
