@@ -14,6 +14,3 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/phonology.twolc)</small>
-
----
-
