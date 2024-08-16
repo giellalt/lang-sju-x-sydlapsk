@@ -1,6 +1,10 @@
-# 18th century Southern Saami description 
+# 18th century Southern Saami language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-dependency.cg3.md 
 
 
 !!!C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
@@ -153,10 +157,17 @@ Correction rules
 !! __lgRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
 
 * * *
+
 <small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/dependency.cg3)</small>
+
+---
+
+# src-cg3-functions.cg3.md 
+
+
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
-Sámi language technology project 2003-2018, University of Tromsø #
+Sámi language technology project 2003-2024, University of Tromsø #
 
 This file adds syntactic functions. It is common for all the Saami
 
@@ -604,7 +615,7 @@ These were the set types.
 
 !!SUBJ MAPPING - leftovers
 
-* __subj>ifV__ (@SUBJ>) for NP-HEAD-NOM, DUPRON or (Num Nom) if; a finite mainverb is found to the right. This is a cleanup rule for subjects
+* __subj>ifV__ (@SUBJ>) for NP-HEAD-NOM, DUPRON or  Num + Nom  if; a finite mainverb is found to the right. This is a cleanup rule for subjects
 
 * __hnoun>ifV__ (@SUBJ>) for NP-HEAD-NOM, DUPRON if. The counterpart of subj>ifV. You are HNOUN if there is a finite verb to your right, but NOT if there is a finite verb after a relative clause
 
@@ -624,7 +635,14 @@ These were the set types.
 The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The 18th century Southern Saami language adjectives compare.
 
 * * *
@@ -632,6 +650,8 @@ The 18th century Southern Saami language adjectives compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 Lindahl & Öhrling page XLIVff
@@ -641,6 +661,8 @@ Lindahl & Öhrling page XLIVff
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The 18th century Southern Saami language proper nouns inflect in the same cases as regular
@@ -652,6 +674,8 @@ nouns, but perhaps with a colon (':') as separator.
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -661,6 +685,8 @@ nouns, but perhaps with a colon (':') as separator.
 
 ---
 
+# src-fst-morphology-affixes-verbs.lexc.md 
+
 Verb inflection
 The 18th century Southern Saami language verbs inflect in persons.
 
@@ -669,6 +695,8 @@ The 18th century Southern Saami language verbs inflect in persons.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
+
+# src-fst-morphology-lexicon.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
@@ -683,6 +711,9 @@ language are presented in this system in terms of the following symbols.
 The parts-of-speech are:
 
 Diacritical triggers
+
+Letters with deviating properties
+**i2** i that does not delete e
 
 The parts of speech are further split up into:
 
@@ -817,12 +848,19 @@ Emojies
 
 ---
 
+# src-fst-morphology-phonology.twolc.md 
+
 =================================== !
 The 18th century Southern Saami morphophonological/twolc rules file !
 =================================== !
 
+- i2:i does not delete e in stem
+
 * *attje>in*
 * *attj0>in*
+
+* *nuore>a*
+* *nuor0>an*
 
 * *attje^EA>i*
 * *attja0>i*
@@ -835,6 +873,8 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 <small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
+
+# src-fst-morphology-root.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
@@ -849,6 +889,9 @@ language are presented in this system in terms of the following symbols.
 The parts-of-speech are:
 
 Diacritical triggers
+
+Letters with deviating properties
+**i2** i that does not delete e
 
 The parts of speech are further split up into:
 
@@ -915,6 +958,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 Adjectives
 Lindahl & Öhrling page XLV
 
@@ -923,6 +968,8 @@ Lindahl & Öhrling page XLV
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 Nouns
 Lindahl & Öhrling page XLIVff
@@ -933,6 +980,8 @@ Lindahl & Öhrling page XLIVff
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 Numerals
 Numerals in the 18th century Southern Saami language describe a nuerical quantity.
 
@@ -941,6 +990,8 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-prefixes.lexc.md 
 
 Prefixes
 Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
@@ -951,6 +1002,8 @@ Prefixes in the 18th century Southern Saami language are attatched to the left o
 
 ---
 
+# src-fst-morphology-stems-pronouns.lexc.md 
+
 Pronouns
 Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
 
@@ -960,6 +1013,8 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 
 ---
 
+# src-fst-morphology-stems-verbs.lexc.md 
+
 Verbs
 Verbs in the 18th century Southern Saami language inflect for tense.
 
@@ -968,6 +1023,8 @@ Verbs in the 18th century Southern Saami language inflect for tense.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
+
+# src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1136,6 +1193,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in 18th century Southern Saami are read out, e.g.
@@ -1156,6 +1215,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -1169,6 +1230,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 #  18th century Southern Saami  G R A M M A R   C H E C K E R
@@ -1467,7 +1530,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for sju-x-sydlapsk
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for sju-x-sydlapsk
 
 Usage:
 ```
@@ -1529,6 +1599,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for sju-x-sydlapsk
 
@@ -1593,6 +1665,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1654,6 +1728,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-
