@@ -5,6 +5,6 @@
 LEXICON Adjectives
 stuores:stuor as "stor" ;
 puorak ac "god" ;
-nuor av "ung" ;
+nuor NUOR "ung" ;
 
 ! vim: set ft=xfst-lexc:

@@ -10,9 +10,61 @@ LEXICON ac
 +A+Sg+Nom: # ;
 +A: xc_oblique ;
 
-LEXICON av
+!LEXICON av
+!+A+Sg+Nom: # ;
+!+A:e xv_oblique ;
+
+
+LEXICON NUOR
 +A+Sg+Nom: # ;
-+A:e xv_oblique ;
++A:e NUOR_oblique ;
+
+LEXICON NUOR_oblique
++Sg+Gen:%>n # ;            ! nuoren
++Sg+Gen+Use/NG:%>a # ;     ! nuora
++Sg+Acc:%>b # ;            ! nuoreb
++Sg+Ill:^EA%>i # ;         ! nuorai 
++Sg+Ill+Use/NG:%>i # ;     ! nuori
++Sg+Ill+Use/NG:%>i2 # ;    ! nuorei
++Sg+Ela:%>st # ;           ! nuorest
++Sg+Ela+Use/NG:^EA%>st # ; ! nuorast
++Sg+Ine:%>sne # ;          ! nuoresne
++Sg+Ine+Use/NG:^EA%>n # ;  ! nuoran
++Sg+Ine+Use/NG:%>n # ;     ! nuoren
++Sg+Com:%>in # ;           ! nuorin      
++Sg+Com+Use/NG:^EA%>in # ; ! nuorain
++Sg+Com+Use/NG:%>i2n # ;   ! nuorein     
++Sg+Abe:^EA%>tak # ;       ! nuoratak
++Sg+Abe+Use/NG:^EA%>t # ;  ! nuorat
++Sg+Abe+Use/NG:%>t # ;     ! nuoret
++Sg+Ess:^EA%>n # ;         ! nuoran
++Sg+Ess+Use/NG:%>n # ;     ! nuoren
+
++Pl+Nom:%>h # ;            ! nuoreh
++Pl+Nom+Use/NG:^EA%>h # ;  ! nuorah
++Pl+Gen:^EA%>i # ;         ! nuorai 
++Pl+Gen+Use/NG:%>i # ;     ! nuori
++Pl+Gen+Use/NG:%>i2 # ;    ! nuorei
++Pl+Ill:^EA%>it # ;        ! nuorait 
++Pl+Ill+Use/NG:%>it # ;    ! nuorit
++Pl+Ill+Use/NG:%>i2t # ;   ! nuoreit
++Pl+Acc:^EA%>it # ;        ! nuorait 
++Pl+Acc+Use/NG:%>it # ;    ! nuorit
++Pl+Acc+Use/NG:%>i2t # ;   ! nuoreit
++Pl+Ela:%>ist # ;           ! nuorist
++Pl+Ela+Use/NG:^EA%>ist # ; ! nuoraist
++Pl+Ela+Use/NG:%>i2st # ;   ! nuoreist     
+
++Pl+Ine:%>in # ;           ! nuorin      
++Pl+Ine+Use/NG:^EA%>isne # ; ! nuoraisne
++Pl+Ine+Use/NG:%>i2sne # ;   ! nuoreisne     
+
++Pl+Com:%>i # ;           ! nuori      
++Pl+Com+Use/NG:^EA%>i # ; ! nuorai
++Pl+Com+Use/NG:%>i2 # ;   ! nuorei
+
++Pl+Ess:^EA%>in # ;         ! nuorain
++Pl+Ess+Use/NG:^EA%>n # ;   ! nuoran
 
 
 ! vim: set ft=xfst-lexc:

@@ -33,7 +33,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Diacritical triggers
  ^EA
 
-
+!! Letters with deviating properties
+  i2 !!≈ **@CODE@** i that does not delete e
 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
@@ -41,7 +42,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The Usage extents are marked using following tags:
  +Err/Orth   
  +Use/-Spell 
-
+ +Use/NG
+ 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Abe +Ela +Ine

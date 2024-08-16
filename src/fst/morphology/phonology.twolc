@@ -8,10 +8,11 @@ Alphabet
 
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
-
+ i2:i !!≈ - @CODE@ does not delete e in stem
+ 
 %^EA:0 
 
- %>:0 ;
+ %> ;
 
 Sets
 
@@ -22,14 +23,17 @@ Sets
 
 Rules
 
-"Delete e in front of i suffix"
-e:0 <=> _ %>:0 i ;
+"Delete e in front of i and a suffix"
+e:0 <=> _ %> [i|a] ;
 
 !!€ attje>in
 !!€ attj0>in
 
+!!€ nuore>a
+!!€ nuor0>an
+
 "e to a in front of illative i"
-e:a <=> _ %^EA: %>:0 i ;
+e:a <=> _ %^EA: %> ;
 
 !!€ attje^EA>i
 !!€ attja0>i
