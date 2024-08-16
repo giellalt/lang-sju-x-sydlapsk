@@ -2,8 +2,13 @@
 The 18th century Southern Saami morphophonological/twolc rules file !
 =================================== !
 
+- i2:i does not delete e in stem
+
 * *attje>in*
 * *attj0>in*
+
+* *nuore>a*
+* *nuor0>an*
 
 * *attje^EA>i*
 * *attja0>i*

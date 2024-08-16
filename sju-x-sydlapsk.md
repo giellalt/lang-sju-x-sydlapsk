@@ -66,8 +66,13 @@ The 18th century Southern Saami language verbs inflect in persons.
 The 18th century Southern Saami morphophonological/twolc rules file !
 =================================== !
 
+- i2:i does not delete e in stem
+
 * *attje>in*
 * *attj0>in*
+
+* *nuore>a*
+* *nuor0>an*
 
 * *attje^EA>i*
 * *attja0>i*
@@ -96,6 +101,9 @@ language are presented in this system in terms of the following symbols.
 The parts-of-speech are:
 
 Diacritical triggers
+
+Letters with deviating properties
+**i2** i that does not delete e
 
 The parts of speech are further split up into:
 

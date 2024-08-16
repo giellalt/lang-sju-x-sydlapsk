@@ -12,6 +12,9 @@ The parts-of-speech are:
 
 Diacritical triggers
 
+Letters with deviating properties
+**i2** i that does not delete e
+
 The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
