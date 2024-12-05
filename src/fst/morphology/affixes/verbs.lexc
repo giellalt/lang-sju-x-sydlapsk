@@ -1,15 +1,88 @@
 !! Verb inflection
 !  ---------------
-!! The 18th century Southern Saami language verbs inflect in persons.
+!! The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
-LEXICON Persons
-+V+Inf:0    #   ;
-+V+Sg1:en   #   ;
-+V+Sg2:et   #   ;
-+V+Sg3:e    #   ;
-+V+Pl1:ien  #   ;
-+V+Pl2:iet  #   ;
-+V+Pl3:iet  #   ;
+LEXICON Neg
++V+Neg+Ind+Prs+Sg1:ib # ;
++V+Neg+Ind+Prs+Sg2:ih # ;
++V+Neg+Ind+Prs+Sg3:i # ;
++V+Neg+Ind+Prs+Du1:ähn # ;
++V+Neg+Ind+Prs+Du2:epen # ;
++V+Neg+Ind+Prs+Du3:äpah # ;
++V+Neg+Ind+Prs+Pl1:epe # ;
++V+Neg+Ind+Prs+Pl2:epet # ;
++V+Neg+Ind+Prs+Pl3:äh # ;
+
++V+Neg+Ind+Prt+Sg1:idtjib # ;
++V+Neg+Ind+Prt+Sg2:idtjih # ;
++V+Neg+Ind+Prt+Sg3:idtji # ;
++V+Neg+Ind+Prt+Du1:eimen # ;
++V+Neg+Ind+Prt+Du2:eiten # ;
++V+Neg+Ind+Prt+Du3:eika # ;
++V+Neg+Ind+Prt+Pl1:eime # ;
++V+Neg+Ind+Prt+Pl2:eite # ;
++V+Neg+Ind+Prt+Pl3:idtjin # ;
+
++V+Neg+Imp+Sg1:elom # ;
++V+Neg+Imp+Sg2:ele # ;
++V+Neg+Imp+Sg2:ale # ;
++V+Neg+Imp+Sg3:ellus # ;
++V+Neg+Imp+Sg3:ällus # ;
++V+Neg+Imp+Du1:ällon # ;
++V+Neg+Imp+Du2:älloten # ;
++V+Neg+Imp+Du3:älluskan # ;
++V+Neg+Imp+Pl1:ällob # ;
++V+Neg+Imp+Pl2:elet # ;
++V+Neg+Imp+Pl2:alet # ;
++V+Neg+Imp+Pl3:ällus # ;
+
+LEXICON vn_ot
++V: va_ot ; ! TODO: find difference between v.n. and v.a.
+
+LEXICON vn_et
++V: va_et ; ! TODO: find difference between v.n. and v.a.
+
+LEXICON va_ot
++Inf:%>ot    #   ;
++Ind+Prs+Sg1:%>ob   #   ;
++Ind+Prs+Sg2:%>oh   #   ;
++Ind+Prs+Sg3:%>o    #   ;
++Ind+Prs+Du1:%>on  #   ;
++Ind+Prs+Du2:%>obeten  #   ;
++Ind+Prs+Du3:%>oba #   ;
++Ind+Prs+Pl1:%>oba  #   ;
++Ind+Prs+Pl2:%>obete  #   ;
++Ind+Prs+Pl2:%>obet  #   ;
++Ind+Prs+Pl3:%>oh  #   ;
+
+LEXICON va_et
++Inf:%>et    #   ;
++ConNeg:%>e # ;
++PrsPrc:%>eje # ;
++PrfPrc:%>am # ;
+
++Ind+Prs+Sg1:%>ab   #   ;
++Ind+Prs+Sg2:%>ah   #   ;
++Ind+Prs+Sg3:%>a    #   ;
++Ind+Prs+Du1:%>en  #   ;
++Ind+Prs+Du2:%>ebeten  #   ;
++Ind+Prs+Du3:%>eba #   ;
++Ind+Prs+Pl1:%>eba  #   ;
++Ind+Prs+Pl2:%>ebete  #   ;
++Ind+Prs+Pl2:%>ebet  #   ;
++Ind+Prs+Pl3:%>eh  #   ;
+
++Ind+Prt+Sg1:%>ib   #   ;
++Ind+Prt+Sg2:%>ih   #   ;
++Ind+Prt+Sg3:%>ai    #   ;
++Ind+Prt+Du1:%>aimen  #   ;
++Ind+Prt+Du2:%>aiten  #   ;
++Ind+Prt+Du3:%>aika #   ;
++Ind+Prt+Pl1:%>aime  #   ;
++Ind+Prt+Pl2:%>aite  #   ;
++Ind+Prt+Pl3:%>in  #   ;
+
+
 
 ! vim: set ft=xfst-lexc:
 
