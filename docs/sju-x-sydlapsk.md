@@ -688,7 +688,7 @@ nouns, but perhaps with a colon (':') as separator.
 # src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
-The 18th century Southern Saami language verbs inflect in persons.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
 * * *
 
@@ -771,6 +771,18 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+| Flag diacritic | Explanation
+| :------------- |:-----------
+| @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 The word forms in 18th century Southern Saami language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
@@ -787,7 +799,7 @@ nouns, but perhaps with a colon (':') as separator.
 # Symbol affixes
 
 Verb inflection
-The 18th century Southern Saami language verbs inflect in persons.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
 Adjectives
 Lindahl & Öhrling page XLV
@@ -805,7 +817,9 @@ Pronouns
 Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
 
 Verbs
-Verbs in the 18th century Southern Saami language inflect for tense.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
+
+We first point to auxiliaries, then to the full list.
 
 Punctuation symbols
 
@@ -949,6 +963,18 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
+| Flag diacritic | Explanation
+| :------------- |:-----------
+| @U.number.one@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.two@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.three@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.four@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.five@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.six@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+| @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 The word forms in 18th century Southern Saami language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
@@ -1016,7 +1042,9 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 # src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
-Verbs in the 18th century Southern Saami language inflect for tense.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
+
+We first point to auxiliaries, then to the full list.
 
 * * *
 
