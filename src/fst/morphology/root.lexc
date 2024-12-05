@@ -152,14 +152,15 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 LEXICON Root
 !! The word forms in 18th century Southern Saami language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
- Nouns       ;
- Verbs       ;
  Adjectives  ;
- Pronouns    ;
+ Adverbs     ;
+ Nouns       ;
  Numerals    ;
  Prefixes    ;
+ Pronouns    ;
  Punctuation ;
  Symbols     ;
+ Verbs       ;
 
 ! vim: set ft=xfst-lexc:
 
