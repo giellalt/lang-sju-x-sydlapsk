@@ -1,24 +1,9 @@
-allas  cum conjunct causs. quatenus, så vida som. Jutte alas leh waddam, quatenus dedisti, så vida som du har givit. Cum adv "temp. Ko, kåsse, constructum: demum, tandem, omsider, äntligen. Kåsse allas påti, quando demum venit, när han omsider kom. " ;
-[:][  cc "causs. ne, att icke. Abma tab takkat kalka, ne id faciat, att han inte må göra det. Abmamis, detsamma som abma.  2 " ;
-[]  cc "copul. quoque, etjam, ock, också. Dubbleras stundom, t.ex. Påte todn aj aj, veni tu quoque, kom du också. " ;
-[]]  cc "adhuc, ännu. Se anje. " ;
-[]]w  cc "quod, att. Jmf. jutte. " ;
-[]]][  cc "ut, quo, på det att. Est mobile, e.g. attjab vel attjam, ut ego, på det jag. Attjas, ut ille, att han. Attjabe takket tab, ut hoc faciamus. " ;
-o[]]  cc "tamen, dock. I dauk, nequaquam, alldeles inte. Dauk kuit &  39 per dimin. dsauk, aliquantulum, något litet. T.ex. makte todn wieso? dsauk eller dauk kuit, ut vales? aliquantulum, scil. bene, hur mår du? någorlunda. " ;
-]]][] & ikka  cc "tamet si, fastän. Ikkan leb mäddam, quamvis peccaverim, fastän jag har felat. " ;
-]]][:w  cc "quamvis, licet, fastän. I sodn ådtjo, ikkabe situs mann sagga, non obtinet licet vel maxime percupiat Även forte, kanske. Ikkabe juo le takkam, forte jam dudum fecit, kanske har han redan gjort. " ;
-]]r]  cc "sive, aut, antingen. Jogo tan jaken jalla mubben jaken, sive hoc sive futuro anno, antingen i detta eller nästa år. " ;
-]]]]w  cc "Austr. quod, att. Se jutte. " ;
-]]]  cc "si, om. Jus sitah, si vis, om du vill. Jus påtah, si venis. Jus alas måratowa, si demum irascitur, om han äntligen blir ond. Juspiss & juspese, si forte, si saltem, om åtminstone, om till äventyrs. Jusspese sodn tjuote jårbå Dalait adna, die le kalle nuokes, si forte s. si ad summum centum habet Imperiales, certe plures illi non sunt, om han till det högsta har 100 riksdaler, så har han säkert ej mera. " ;
-]]]][ & jälli  cc "sive, eller. To jälla mo, tu vel me. Jmf. jalla. Jällapin & jällpin, quamvis, fastän. Jällpin påta, quamvis veniret. Jmf. ovan jalapin. " ;
-][]]  cc "copulat. quoque, etiam, också. Tabb kaik takkai, etiam id fecit, han gjorde också det. Todn ja mon kaik, tu & ego quoque, du och även jag. " ;
-]w]  cc "enclitica & copulat. I sodn i-ken todn, non ille nec tute, icke han ej heller du. Ib-ken tite, neque ego scio, intet vet jag heller. " ;
-]]::[]][]  n.a. uterque, ambo, båda, båda två. Kåbbatjak, attje ja edne, uterque pater & mater. Kåbbatjaki käti, ambabus manibus, med båda händerna. Kåbbatjak pelest, ab utraque parte, på båda sidor. Även cc "Kåbbatjak kroppen ja siälon kautoi, & qua corpus & qua animam, både till kropp och själ. " ;
-]]]][  cc "tamen, dock. I kålla, non tamen, dock likväl icke. Idtji kålla påte, non tamen venit, han kom dock icke. Obs. nunquam nisi præmisso negativo I usurpatur, brukas aldrig annars, än som efter nekningsordet I. Boreal. huommen, detsamma. " ;
-]]][]  lika, cc "tamen, dock. Se dauk. Interdum geminantur, e.gr. dauk likan, nihilo minus, tamen, dock likväl, icke desto mindre. " ;
-][]  genet. pronom. mi, Vanligare är kän. Die le attje, man pardneb wuoidnime, hic pater est, cujus videbamus filium. Sammansättn. mandiet, mantieti, se dessa ord. Även man & mann, cc "quam. Mann kukke, quamdiu, hur länge? så länge som. Man taiwai, quoties, hur många gånger? så många gånger som. Man taiwai mon to wuoidnab, awosab, quoties te video, lætor, jag gläder mig så ofta jag dig ser. Man kalle, quot, hur många? så många som. Est & relativum & interrogativum. " ;
-]]]]]  cc "sed, vero, men. Jmf. walla. " ;
-][]  nakk & nakka, cc "at, verum, men. Nakk tieti puorist, at sciebat probe, men tänk, han visste väl. Idtjib toiwo, nakka die li sodn, ille ipse, quem non putaram, erat, det var han själv, emot all min förmodan. Även particula, quæ, ut adverbium qualitatis, vocibus additur, e.gr. wuoidnonakk, evidenter, modo unicuique perspicuo, ögonskenligen, så att var och en kan se. Kullonak le, optime auditur, det hörs tydligt. " ;
-]]]]w  sikk, cc "&, både. Se kåbbatjak. Sikke mon sikke todn, & ego & tu, både du och jag. Sikke Swerjen sikke Norjen, tam in Svecia, quam in Norvegia, såväl i Sverige som i Norge. " ;
-][]][  cc "sed, verum, men. Walla i sodn sitta, sed non vult, men han vill ej. Även walla die, ægre, med möda, svårligen. Walla die mattib sjawot orrot, kåsse tabb kullib, istud cum audirem, ægre tacere potui, jag kunde med möda tiga, när jag hörde det. I le walla takkem, factu haud facile est, det är ej så lätt att göra. Även walde kåbbab walla ets todn sittah, utrumvis cupis sumas, tag vilketdera du vill.  " ;
-]]  än-ko, cc "quam, än. Puoreb än ko sodn, melior illo, sive quam ille, bättre än han. Rätt och mer lämpligt språkbruk är även puoreb tuste, melior illo. " ;
+
+LEXICON cc
++CC: # ;
+
+LEXICON Conjunctions
+
+allas  cc "cum conjunct causs. quatenus, så vida som. Jutte alas leh waddam, quatenus dedisti, så vida som du har givit." ;
+ja  cc "&, och. Tållå ja tjatse, ignis & aqua." ;
+wai  cc "ut, på det att. Wadde munji piäbmob, wai pårråb, da mihi cibum, ut edam, giv mig mat, att jag må äta, jmf. attja. Även an, eller. Kåbbab todn sittah, tab wai tuob? utrum cupis, hoc an istud? vilketdera vill du ha, detta eller det där, se jalla, jälla. " ;

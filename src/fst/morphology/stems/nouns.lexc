@@ -28,7 +28,7 @@ aide nv  " n.s. bene factum, beneficium, gratia inita, välgärning, god gärnin
 aido nv  " n.s. via qua Lappones suis cum rangiferis commigrant, boflyttningsväg med renar. " ;
 aidotz nc  " n.s. Dim. idem. " ;
 aikalasi nv  " n.s. indecl. & quasi in penetrativo casu. Meta, propositum, föremål, ändamål. I kåssek aikalasi påtet, nunquam metam optatam contingere, aldrig hinna till sitt föremål. Obs. i Lycksele säger man aikalen eller aikalan. " ;
-aike nv  " n.s. tempus, tid. Aike le anje, adhuc tempus est, ännu är tid. Kattet aikeb, observate tempus. Akten aiken, semel, på en gång. Mådden eller sutten aiken, pluribus vicibus, sæpius, flera gånger. Kallen aiken? quoties? hur många gånger? Puore aike eller sammandraget puoraik, formula est salutandi, ave! proprie atque ad verbum: bonum tempus! (scil. opto) god dag. Aike pale, tempestivitas, justum tempus. Aike palai påtet, tempestive venire, komma i rättan tid. Sjättes aike, tempus opportunum, tjänlig tid. Aike pådda, tempus ad capiendos pisces idoneum, tjänlig tid att fånga fisk. Aikai påtet, efficere valere, komma till rätta med. Oaike, n.s. tempus non idoneum, otjänlig tid, otid. Oaikasatje, n.a. intempestivus, otidig. Oaikot, fieri  7 intempestivum, non opportunum esse, vara otjänlig, bli otjänlig. " ;
+aike nv  " n.s. tempus, tid. Aike le anje, adhuc tempus est, ännu är tid. Kattet aikeb, observate tempus. Akten aiken, semel, på en gång. Mådden eller sutten aiken, pluribus vicibus, sæpius, flera gånger. Kallen aiken? quoties? hur många gånger? Puore aike eller sammandraget puoraik, formula est salutandi, ave, proprie atque ad verbum: bonum tempus, (scil. opto) god dag. Aike pale, tempestivitas, justum tempus. Aike palai påtet, tempestive venire, komma i rättan tid. Sjättes aike, tempus opportunum, tjänlig tid. Aike pådda, tempus ad capiendos pisces idoneum, tjänlig tid att fånga fisk. Aikai påtet, efficere valere, komma till rätta med. Oaike, n.s. tempus non idoneum, otjänlig tid, otid. Oaikasatje, n.a. intempestivus, otidig. Oaikot, fieri  7 intempestivum, non opportunum esse, vara otjänlig, bli otjänlig. " ;
 aikom nc  " n.s. propositum, conamen, uppsåt, föresats. Suolles aikomeh, insidæ clandestinæ. " ;
 ailestem nc  " n.s. sanctificatio, helgelse. vox Ecclesiastica. Wuoigenen ailestemesne, in sanctificatione spiritus. Ailes takkem, detsamma. " ;
 ailestattem nc  " n.s. se Ailestem. " ;
@@ -295,7 +295,7 @@ guelpe nv  " n.s. pavimentum, golv. " ;
 habja nv  " n.s. odor, lukt. Habja leikes, odor spargitur. Suottes habja, odor svavis. Habjok, adj. spirans, odorus, som ger lukt.  " ;
 hadde nv  " n.s. pretium, värde. Uttje hadden åstib, parvo pretio emi. Uttjeben hadden wuobdib, minoris pretii vendidi. " ;
 haddo nv  " n.s. ultio, vindicta, hämnd. Mo le haddo, mea est vindicta, Rom. 12:19. " ;
-hagno nv  " n.s. patrocinium, defensio, försvar,  65  sic!  61 hägn. Hagnosas waldi manab, infantis suscepit patrocinium. " ;
+hagno nv  " n.s. patrocinium, defensio, försvar,  65  sic,  61 hägn. Hagnosas waldi manab, infantis suscepit patrocinium. " ;
 halitem nc  " n.s. desiderium, cupiditas, åtrå, längtan. Kaik halitem, omnis cupido, all åtrå. " ;
 hamo nv  " n.s. appetentia, cupiditas, lust, begärelse. Piäbmo hamo, appetentia cibi. " ;
 haps nc  " n.s. odor, lukt. Även stercus, imprimis renonum, renars träck. " ;
@@ -1959,3 +1959,12 @@ wäto nv  " n.s. pignus certationis, sponsio, vad. In Theolog. wätto raje, curr
 änetem nc  " n.s. multiplicatio, förökande. " ;
 äredi nv  " n.s. se ärdn. " ;
 äro nv  " n.s. honor, heder, ära. Äro teuwas, honorabilis, honore dignus, ärorik, ärofull. " ;
+
+!heima eller heimel  domus, hus, hem. Heima fuolke, domestici, hemfolk. Heima almats eller kåte kunde, detsamma. Heimi påtet, venire domum, komma hem. Heimeleb tjuodtjotet, domui præesse, curam domus gerere, förestå huset. Heimi, domum, hemåt. Heimen, domi, hemma. 
+!jasketes & jaskatus  solatium, tröst. Stuora jasketes le tatt tunji, id magno tibi erit solatio, det är dig till en stor tröst. 
+!konoges  Konogs, Konogas, Rex, konung. Konogasen piäjetus, edictum Regis,  157 kunglig stadga. Ets radeje Konoges, Monarcha. Armokumus Konoges, Rex clementissimus. Sweriges Konoges, Rex Sveciæ. 
+!qwujn  qwujna, fœmina, mulier, kvinna. 
+!tjaktja  autumnus, höst. Tjaktja pelest, ineunte sive nova hieme, ab automno, ifrån hösten, i början av vintern. 
+!åiwe  caput, huvud. Almatjen åiwe, caput hominis, människohuvud. Åiwe sarjit, caput dolet. Åiweb kåptjet, caput tegere. Åiwist le, (in plural.) demens est, han är tokig. Åiwe jårråk, amens, stultus, tokig. Även vertiginosus, en som har svindel. Åiwe sarjes & åiwe swarke, cephalalgia, huvudvärk. Åiwe skure, cranium, huvudskål. Åiwe ålma & simpliciter åiwe, dux, princeps, hövitsman, huvudman. Åiweh påteh, optimates sive principes veniunt. Åiwen asse, se asse. Åiwe pekke, caput, pars libri, kapitel, (Th). Även åiwai, som adverb. Makson åiwai waddet, per anticipationem & in spem futuræ persolutionis dare, credere, lämna ut på betalning, borga. Åiwe tjåkk, vertex,  573 hjässa. Akten" ;
+
+

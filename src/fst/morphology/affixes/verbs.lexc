@@ -23,18 +23,18 @@ LEXICON Neg
 +V+Neg+Ind+Prt+Pl2:eite # ;
 +V+Neg+Ind+Prt+Pl3:idtjin # ;
 
-+V+Neg+Imp+Sg1:elom # ;
-+V+Neg+Imp+Sg2:ele # ;
-+V+Neg+Imp+Sg2:ale # ;
-+V+Neg+Imp+Sg3:ellus # ;
-+V+Neg+Imp+Sg3:ällus # ;
-+V+Neg+Imp+Du1:ällon # ;
-+V+Neg+Imp+Du2:älloten # ;
-+V+Neg+Imp+Du3:älluskan # ;
-+V+Neg+Imp+Pl1:ällob # ;
-+V+Neg+Imp+Pl2:elet # ;
-+V+Neg+Imp+Pl2:alet # ;
-+V+Neg+Imp+Pl3:ällus # ;
++V+Neg+Imprt+Sg1:elom # ;
++V+Neg+Imprt+Sg2:ele # ;
++V+Neg+Imprt+Sg2:ale # ;
++V+Neg+Imprt+Sg3:ellus # ;
++V+Neg+Imprt+Sg3:ällus # ;
++V+Neg+Imprt+Du1:ällon # ;
++V+Neg+Imprt+Du2:älloten # ;
++V+Neg+Imprt+Du3:älluskan # ;
++V+Neg+Imprt+Pl1:ällob # ;
++V+Neg+Imprt+Pl2:elet # ;
++V+Neg+Imprt+Pl2:alet # ;
++V+Neg+Imprt+Pl3:ällus # ;
 
 LEXICON vn_ot
 +V: va_ot ; ! TODO: find difference between v.n. and v.a.
