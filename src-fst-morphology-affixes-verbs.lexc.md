@@ -1,5 +1,5 @@
 Verb inflection
-The 18th century Southern Saami language verbs inflect in persons.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
 * * *
 

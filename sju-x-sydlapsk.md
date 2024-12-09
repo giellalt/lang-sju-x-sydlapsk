@@ -52,7 +52,7 @@ nouns, but perhaps with a colon (':') as separator.
 # src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
-The 18th century Southern Saami language verbs inflect in persons.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
 * * *
 
@@ -240,7 +240,9 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 # src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
-Verbs in the 18th century Southern Saami language inflect for tense.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
+
+We first point to auxiliaries, then to the full list.
 
 * * *
 

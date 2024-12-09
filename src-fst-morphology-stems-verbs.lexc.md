@@ -1,5 +1,7 @@
 Verbs
-Verbs in the 18th century Southern Saami language inflect for tense.
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
+
+We first point to auxiliaries, then to the full list.
 
 * * *
 
