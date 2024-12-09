@@ -10,11 +10,12 @@ This page documents work on a language model for **18th century Southern Saami**
 
 # Project documentation
 
-Forthcoming
+The present language model is a finite-state transducer modeling 18th c Southern Saami, or *Sydlapska bokspråket*. The main source is Lindahl & Öhrling 1780. The goal of the language model is to analyse 18th and 19th c text.
 
 # Background material
 
-- Ihre, Johan & Öhrling, Johannes 1742: [Exercitium academicum, Nonnullas in orthographiam Lapponicam observationes sistens, quod, consentiente amplissima facultate philosoph. in incluta Academia Upsaliensi, præside viro celeberrimo mag. Johanne Ihre ..., publicæ disquisitioni modeste submittit alumnus Regius & Sollenianus, Johannes Öhrling, Lyksela-W-Botniensis, in auditor. Carol. Major. die 10 Aprilis anni MDCCXLII. Horis ante meridiem solitis](Ohrling_1742.pdf)
+- [Ihre, Johan & Johannes Öhrling 1742: Exercitium academicum, Nonnullas in orthographiam Lapponicam](Ohrling_1742.pdf)
+- [Lindahl, Erik & Johan Öhrling 1780: Lexicon Lapponicum](http://www.raamesuenne.se/Lexicon_lapponicum_20160330.pdf)
 
 # In-source documentation
 
