@@ -16,7 +16,7 @@ Download nightly / CI/CD installation packages for testing (contains the core zh
 
 __NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
-This repository contains finite state source files for the 18th century Southern Saami language,
+This repository contains finite state source files for the 18th century Southern Saami language (aka *Old Literary Southern Saami*),
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
