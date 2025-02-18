@@ -640,63 +640,7 @@ The analysis give double analysis because of optional semtags. We go for the one
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
-
-Adjective inflection
-The 18th century Southern Saami language adjectives compare.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
-
----
-
-# src-fst-morphology-affixes-nouns.lexc.md 
-
-Noun inflection
-Lindahl & Öhrling page XLIVff
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
-
----
-
-# src-fst-morphology-affixes-propernouns.lexc.md 
-
-Proper noun inflection
-The 18th century Southern Saami language proper nouns inflect in the same cases as regular
-nouns, but perhaps with a colon (':') as separator.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
-
----
-
-# src-fst-morphology-affixes-symbols.lexc.md 
-
-
-# Symbol affixes
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
-
----
-
-# src-fst-morphology-affixes-verbs.lexc.md 
-
-Verb inflection
-The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
-
----
-
-# src-fst-morphology-lexicon.lexc.md 
+# src-fst-morphology-.generated-lexicon.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
@@ -858,7 +802,63 @@ Emojies
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/lexicon.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/lexicon.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/.generated/lexicon.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/.generated/lexicon.lexc)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
+The 18th century Southern Saami language adjectives compare.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
+
+---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
+
+Noun inflection
+Lindahl & Öhrling page XLIVff
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
+
+---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
+
+Proper noun inflection
+The 18th century Southern Saami language proper nouns inflect in the same cases as regular
+nouns, but perhaps with a colon (':') as separator.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
+
+---
+
+# src-fst-morphology-affixes-symbols.lexc.md 
+
+
+# Symbol affixes
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
+
+---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
+
+Verb inflection
+The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
