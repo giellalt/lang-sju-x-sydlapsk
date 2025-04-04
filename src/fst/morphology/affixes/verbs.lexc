@@ -37,12 +37,15 @@ LEXICON Neg
 +V+Neg+Imprt+Pl3:ällus # ;
 
 LEXICON vn_ot
-+V: va_ot ; ! TODO: find difference between v.n. and v.a.
++V: va_ot_infl ; ! TODO: find difference between v.n. and v.a.
 
 LEXICON vn_et
-+V: va_et ; ! TODO: find difference between v.n. and v.a.
++V: va_et_infl ; ! TODO: find difference between v.n. and v.a.
 
 LEXICON va_ot
++V: va_ot_infl ;
+
+LEXICON va_ot_infl
 +Inf:%>ot    #   ;
 +Ind+Prs+Sg1:%>ob   #   ;
 +Ind+Prs+Sg2:%>oh   #   ;
@@ -56,6 +59,9 @@ LEXICON va_ot
 +Ind+Prs+Pl3:%>oh  #   ;
 
 LEXICON va_et
++V: va_et_infl ;
+
+LEXICON va_et_infl 
 +Inf:%>et    #   ;
 +ConNeg:%>e # ;
 +PrsPrc:%>eje # ;
