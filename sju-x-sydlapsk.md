@@ -26,6 +26,17 @@ Lindahl & Öhrling page XLIVff
 
 ---
 
+# src-fst-morphology-affixes-prefixes.lexc.md 
+
+Prefixes
+Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
+
+---
+
 # src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
@@ -212,17 +223,6 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
-
----
-
-# src-fst-morphology-stems-prefixes.lexc.md 
-
-Prefixes
-Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
-
-* * *
-
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
 
