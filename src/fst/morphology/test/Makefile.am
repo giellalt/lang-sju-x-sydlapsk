@@ -16,7 +16,6 @@ GENERATION_TESTS=
 # be fixed *later*, but is not critical at the moment:
 XFAIL_TESTS=generate-propernoun-lemmas.sh \
 			generate-adjective-paradigm.sh \
-			generate-noun-paradigm.sh \
 			generate-verb-paradigm.sh
 
 
