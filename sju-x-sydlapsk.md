@@ -65,6 +65,8 @@ nouns, but perhaps with a colon (':') as separator.
 Verb inflection
 The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
+* LEXICON vn_et  = påtet "venire, komma"
+
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
