@@ -39,7 +39,7 @@ LEXICON Neg
 LEXICON vn_ot
 +V: va_ot_infl ; ! TODO: find difference between v.n. and v.a.
 
-LEXICON vn_et
+LEXICON vn_et !!= * @CODE@ = påtet "venire, komma"
 +V: va_et_infl ; ! TODO: find difference between v.n. and v.a.
 
 LEXICON va_ot
@@ -66,6 +66,9 @@ LEXICON va_et_infl
 +ConNeg:%>e # ;
 +PrsPrc:%>eje # ;
 +PrfPrc:%>am # ;
++FutPrc:%>jassa # ; ! Torbjörn Söder -jassa
++FutPrc+Pl:%>jassah # ; ! Torbjörn Söder -jassa
++FutPrc+Use/NG:%>jassaa # ; ! Torbjörn Söder -jassa
 
 +Ind+Prs+Sg1:%>ab   #   ;
 +Ind+Prs+Sg2:%>ah   #   ;
