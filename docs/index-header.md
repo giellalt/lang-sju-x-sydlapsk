@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-sju-x-sydlapsk?label=CI)](https://builds.giellalt.org/pipelines/lang-sju-x-sydlapsk/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents work on a language model for **18th century Southern Saami**, also known as **Sydlapska bokspråket**. 
 
