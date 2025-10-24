@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-sju-x-sydlapsk%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-sju-x-sydlapsk/main/badge.svg)](https://github.com/giellalt/lang-sju-x-sydlapsk/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-sju-x-sydlapsk?label=CI)](https://builds.giellalt.org/pipelines/lang-sju-x-sydlapsk/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/umes1235)
 
 This page documents work on a language model for **18th century Southern Saami**, also known as **Sydlapska bokspråket**. 
 
