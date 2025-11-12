@@ -1,6 +1,3 @@
-spellername = "18th century Southern Saami"
-spellerversion = "0.1.0"
-
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
@@ -18,3 +15,15 @@ system_pkg_id = "no.divvun.MacDivvun.sju-x-sydlapsk"
 
 [windows]
 system_product_code = "{FACCB13E-BCED-4DE0-8BE0-8E7ACDB1E349}_is1"
+
+[package.speller]
+name = "18th century Southern Saami"
+version = "0.1.0"
+
+[package.grammar]
+name = "18th century Southern Saami"
+version = "0.1.0"
+
+[package.tts-text-proc]
+name = "18th century Southern Saami"
+version = "0.1.0"
