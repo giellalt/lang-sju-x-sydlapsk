@@ -154,6 +154,7 @@ LEXICON Root
 !! word classes, or optionally from prefixes:
  Adjectives  ;
  Adverbs     ;
+ Conjunctions ;
  Nouns       ;
  Numerals    ;
  Prefixes    ;
@@ -161,7 +162,7 @@ LEXICON Root
  Punctuation ;
  Symbols     ;
  Verbs       ;
-
+ 
 ! vim: set ft=xfst-lexc:
 
 
