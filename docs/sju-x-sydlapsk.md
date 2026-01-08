@@ -4,7 +4,7 @@ All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-dependency.cg3.md 
+## src-cg3-dependency.cg3.md 
 
 
 !!!C O M M O N  S Á M I  D E P E N D E N C Y   G R A M M A R
@@ -142,6 +142,8 @@ Correction rules
 
 * __muitalit__
 
+* __muitalit__
+
 * __XX__
 
 * __XX__
@@ -158,16 +160,16 @@ Correction rules
 
 * * *
 
-<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt//blob/main/src/cg3/dependency.cg3)</small>
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/dependency.cg3)</small>
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
-Sámi language technology project 2003-2024, University of Tromsø #
+Sámi language technology project 2003-2025, University of Tromsø #
 
 This file adds syntactic functions. It is common for all the Saami
 
@@ -455,6 +457,8 @@ These were the set types.
 
 * __<extsubjcoor__ (<ext> @<SUBJ) for Nom. Coordination
 
+* __<smaSecSubj__ (@SUBJ>) for Nom. i <sma> in a second main or subclause where the copula is dropped
+
 * Sem/Year
 
 * __<spredQst__ (@<SPRED) for Nom; in a typically question sentence; You are not allowed to be Pers or human. The special part is that Nom is not allowed to your right
@@ -493,9 +497,13 @@ These were the set types.
 
 * __spredšaddat>__ (@SPRED>)
 
+* __spredsjidtedh>__ (@SPRED>)
+
 * __r492>__ (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
 * __AdjSpredSg>__ (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
+
+* __AdjSpredSg__ (@<SPRED) for South Sámi in the case of copula drop; A Sg Nom; if there is a subject to the left
 
 * __Spred>SubjInf__ (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
@@ -632,22 +640,31 @@ These were the set types.
 ! __therestX__ adds @X to all what is left, often errouneus disambiguated forms
 
 !!For Apertium:
-The analysis give double analysis because of optional semtags. We go for the one with semtag.
+The analysis gives double analysis because of optional semtags. We go for the one with semtag.
+
+!!For Korp:
+
+Here we remove special tags for MT
+
+! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
+
+Here we remove semantic tags for all other words than
+proper nouns.  
 
 * * *
 
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt//blob/main/src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/functions.cg3)</small>
 
 ---
 
-# src-fst-morphology-.generated-lexicon.lexc.md 
+## src-fst-morphology-.generated-lexicon.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the 18th century Southern Saami
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -687,7 +704,7 @@ source and target part-of-speech.
 
 Morphophonology
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -740,7 +757,7 @@ Proper noun inflection
 The 18th century Southern Saami language proper nouns inflect in the same cases as regular
 nouns, but perhaps with a colon (':') as separator.
 
-# Symbol affixes
+## Symbol affixes
 
 Verb inflection
 The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
@@ -801,50 +818,46 @@ Miscellaneous symbols
 
 Symbols from Mari OCR reading. TODO: Remove non-symbols + merge with list above
 
-Smileys
-
-Emojies
-
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/.generated/lexicon.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/.generated/lexicon.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/.generated/lexicon.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/.generated/lexicon.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Adjective inflection
 The 18th century Southern Saami language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
 Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
 Prefixes
 Prefixes in the 18th century Southern Saami language are attatched to the left of other words.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The 18th century Southern Saami language proper nouns inflect in the same cases as regular
@@ -852,22 +865,22 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
 The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
@@ -876,11 +889,11 @@ The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infiniti
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
 =================================== !
 The 18th century Southern Saami morphophonological/twolc rules file !
@@ -902,18 +915,18 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt//blob/main/src/fst/morphology/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Analysis symbols
+### Analysis symbols
 The morphological analyses of wordforms for the 18th century Southern Saami
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
@@ -953,7 +966,7 @@ source and target part-of-speech.
 
 Morphophonology
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -998,55 +1011,55 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
 Adjectives
 Lindahl & Öhrling page XLV
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
 Nouns
 Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
 Numerals
 Numerals in the 18th century Southern Saami language describe a nuerical quantity.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
 Pronouns
 Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
 Verbs
 The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
@@ -1055,11 +1068,11 @@ We first point to auxiliaries, then to the full list.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1224,11 +1237,11 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt//blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
@@ -1246,11 +1259,11 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt//blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -1262,30 +1275,61 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt//blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## src-fst-transcriptions-transcriptor-symbols2text.lexc.md 
 
 
-#  18th century Southern Saami  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+This file contains mappings from abbreviations and some acronyms to full
+forms for text-to-speech purposes. This is a supplement to the analyser;
+the analyser must tag the strings as +ABBR or similar for the transcriptions
+to work. The resulting full form must be lemmas known to the analyser,
+for further processing.
 
-# TAGS AND SETS
+We describe here how abbreviations in 18th century Southern Saami are read out,
+for text-to-speech systems.
 
-## Tags
+The file contains:
+
+- miscellaneous symbols
+
+- smileys
+
+- Clause boundary symbols
+
+- Single punctuation marks
+
+- Paired punctuation marks
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-symbols2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc)</small>
+
+---
+
+## tools-grammarcheckers-grammarchecker.cg3.md 
+
+
+##  18th century Southern Saami  G R A M M A R   C H E C K E R
+
+## DELIMITERS
+
+## TAGS AND SETS
+
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1312,7 +1356,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1328,7 +1372,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1391,7 +1435,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1424,7 +1468,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1494,22 +1538,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1520,11 +1564,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1532,7 +1576,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1544,35 +1588,35 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt//blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for sju-x-sydlapsk
+## Tokeniser for sju-x-sydlapsk
 
 Usage:
 ```
@@ -1616,7 +1660,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1631,13 +1675,13 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for sju-x-sydlapsk
+## Grammar checker tokenisation for sju-x-sydlapsk
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1696,13 +1740,13 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1762,4 +1806,4 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
