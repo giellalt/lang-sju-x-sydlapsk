@@ -43,6 +43,7 @@ GT_LEXC_SRCS_L1_L2=\
 			 stems/conjunctions.lexc    \
 			 stems/nouns.lexc         \
 			 stems/numerals.lexc      \
+			 stems/particles.lexc      \
 			 stems/pronouns.lexc      \
 			 stems/verbs.lexc
 

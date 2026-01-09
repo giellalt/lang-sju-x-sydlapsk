@@ -157,6 +157,7 @@ LEXICON Root
  Conjunctions ;
  Nouns       ;
  Numerals    ;
+ Particles   ;
  Prefixes    ;
  Pronouns    ;
  Punctuation ;
