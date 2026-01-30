@@ -153,12 +153,13 @@ LEXICON Root
 !! The word forms in 18th century Southern Saami language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
  Adjectives  ;
+ Adpositions ;
  Adverbs     ;
  Conjunctions ;
  Nouns       ;
  Numerals    ;
  Particles   ;
- Prefixes    ;
+! Prefixes    ;
  Pronouns    ;
  Punctuation ;
  Symbols     ;
