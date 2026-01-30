@@ -18,15 +18,25 @@ Personal ;
 ! =================
 
 LEXICON Personal
-mon+Pron+Pers+Sg1:m  perssg ;
-ton+Pron+Pers+Sg2:t  perssg ;
-son+Pron+Pers+Sg3:s  perssg ;
+mon+Pron+Pers+Sg1:m  perssgN ;
+ton+Pron+Pers+Sg2:t  perssgDN ;
+son+Pron+Pers+Sg3:s  perssgDN ;
+
+
+LEXICON perssgN
++Nom:on      # ;
+perssg ;
+
+LEXICON perssgDN
++Nom:odn      # ;
+perssg ;
 
 
 LEXICON perssg
-+Nom:on      # ;
-!+Acc:uv      # ;
-!+Gen:un      # ;
++Acc:o      # ;
++Acc+Use/NG:onnob      # ;
++Gen:o      # ;
++Gen+Use/NG:un      # ;
 
 
 
