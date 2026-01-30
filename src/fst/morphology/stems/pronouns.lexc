@@ -3,7 +3,34 @@
 !! Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+!pronoun    Cases   ;
+
+Personal ;
+!Demonstrative ;
+!Determiner ;
+!Relative ;
+!Reflexive ;
+!Interrogative ;
+!Indefinita ;
+
+
+! Personal pronouns
+! =================
+
+LEXICON Personal
+mon+Pron+Pers+Sg1:m  perssg ;
+ton+Pron+Pers+Sg2:t  perssg ;
+son+Pron+Pers+Sg3:s  perssg ;
+
+
+LEXICON perssg
++Nom:on      # ;
+!+Acc:uv      # ;
+!+Gen:un      # ;
+
+
+
+
 
 ! vim: set ft=xfst-lexc:
 
@@ -11,4 +38,5 @@ pronoun    Cases   ;
 !mai  quidem, väl, äntligen. Kullib mai, audiebam quidem, jag hörde väl äntligen. Påti mai, veniebat quidem. 
 !massas  quem in finem, quare, till vad ända, varför. Massas le tatt? cui fini inserviet istud? vartill skall det vara? Jmf. pron. mi. Även 
 !matte  est priv. casus pronom. mi. Matte landast todn påtah? ex qua regione venis? ifrån vilket land kommer du? Matte palest leh todn tab wuorkem? inde a quo tempore hoc reservasti? Matte merest kalkab alget? unde incipiam? It. 
+
 

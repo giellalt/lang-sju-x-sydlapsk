@@ -1,4 +1,29 @@
-!LEXICON Prepositions
+LEXICON Adpositions ! main class
+!Preposition ; !only prepositions -- check to see if this is a valid category!
+Postpositions ;
+PrePostpositions ;
+
+LEXICON Postpositions
+nal PostP ;
+
+
+! PoS tags added below:
+
+!only postpositions
+LEXICON PostP   !!= * **@CODE@**  adds the tag +Po
++Po: # ;
+
+!only prepositions -- check to see if this is a valid category!
+!LEXICON PreP   !!= * __@CODE@__  adds the tag +Pr
+!+Pr: # ;
+
+!both pre- and postpositions
+LEXICON PrePost   !!= * **@CODE@**  adds the tags +Po and +Pr
++Po: # ;
++Pr: # ;
+
+
+
 ! 
 !Även pro. för. Maite mon kalkab waddet tunji tann autest? quid tibi pro isto dabo? vad skall jag ge dig för det? Auti, coram, inför. Cum suffixo auteses, coram se, inför sig. Påte mo auti, veni coram me. Autesne, coram, inför. Autesnan, coram me, inför mig. Autaseme, coram nobis, inför oss. Härav:  " ;
 !Även ante, förr, innan. Autelen quokson, ante lucem, före dagningen. Autelest, ab anteriore parte, på främre sidan. Autelesi, ante præter, præ, framför, framom. Autelesi wuejet, prætervehi, köra framför. " ;
