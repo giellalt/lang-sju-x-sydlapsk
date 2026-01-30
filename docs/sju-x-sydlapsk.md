@@ -142,8 +142,6 @@ Correction rules
 
 * __muitalit__
 
-* __muitalit__
-
 * __XX__
 
 * __XX__
@@ -160,7 +158,7 @@ Correction rules
 
 * * *
 
-<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/dependency.cg3)</small>
+<small>This (part of) documentation was generated from [src/cg3/dependency.cg3](https://github.com/giellalt//blob/main/src/cg3/dependency.cg3)</small>
 
 ---
 
@@ -169,7 +167,7 @@ Correction rules
 
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
 
-Sámi language technology project 2003-2025, University of Tromsø #
+Sámi language technology project 2003-2024, University of Tromsø #
 
 This file adds syntactic functions. It is common for all the Saami
 
@@ -457,8 +455,6 @@ These were the set types.
 
 * __<extsubjcoor__ (<ext> @<SUBJ) for Nom. Coordination
 
-* __<smaSecSubj__ (@SUBJ>) for Nom. i <sma> in a second main or subclause where the copula is dropped
-
 * Sem/Year
 
 * __<spredQst__ (@<SPRED) for Nom; in a typically question sentence; You are not allowed to be Pers or human. The special part is that Nom is not allowed to your right
@@ -497,13 +493,9 @@ These were the set types.
 
 * __spredšaddat>__ (@SPRED>)
 
-* __spredsjidtedh>__ (@SPRED>)
-
 * __r492>__ (@SPRED>) for Interr Gen; consisting only of negations. You are not allowed to be MII. You are not allowed to have an adjective or noun to yor right. You are not allowed to have a verb to your right; the exception beeing an aux.
 
 * __AdjSpredSg>__ (@SPRED>) for A Sg Nom; if copulas to the right, but not if A or @<SPRED are found to the right of copulas
-
-* __AdjSpredSg__ (@<SPRED) for South Sámi in the case of copula drop; A Sg Nom; if there is a subject to the left
 
 * __Spred>SubjInf__ (@SPRED>) for Nom; if copulas to the right, and the subject of copulas is an Inf to the right
 
@@ -640,20 +632,11 @@ These were the set types.
 ! __therestX__ adds @X to all what is left, often errouneus disambiguated forms
 
 !!For Apertium:
-The analysis gives double analysis because of optional semtags. We go for the one with semtag.
-
-!!For Korp:
-
-Here we remove special tags for MT
-
-! __smeRemove__ removes the language tags <sma>, <sme>,  etc, before proceeding to the dep file.
-
-Here we remove semantic tags for all other words than
-proper nouns.  
+The analysis give double analysis because of optional semtags. We go for the one with semtag.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt//blob/main/src/cg3/functions.cg3)</small>
 
 ---
 
@@ -767,6 +750,10 @@ The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infiniti
 Adjectives
 Lindahl & Öhrling page XLV
 
+* **LEXICON PostP   **  adds the tag +Po
+
+* **LEXICON PrePost   **  adds the tags +Po and +Pr
+
 Nouns
 Lindahl & Öhrling page XLIVff
 
@@ -820,7 +807,7 @@ Symbols from Mari OCR reading. TODO: Remove non-symbols + merge with list above
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/.generated/lexicon.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/.generated/lexicon.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/.generated/lexicon.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/.generated/lexicon.lexc)</small>
 
 ---
 
@@ -831,7 +818,7 @@ The 18th century Southern Saami language adjectives compare.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
 
@@ -842,7 +829,7 @@ Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
 
@@ -853,7 +840,7 @@ Prefixes in the 18th century Southern Saami language are attatched to the left o
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/prefixes.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/prefixes.lexc)</small>
 
 ---
 
@@ -865,7 +852,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/propernouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/propernouns.lexc)</small>
 
 ---
 
@@ -876,7 +863,7 @@ nouns, but perhaps with a colon (':') as separator.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
 
@@ -889,7 +876,7 @@ The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infiniti
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
@@ -915,7 +902,7 @@ The 18th century Southern Saami morphophonological/twolc rules file !
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/phonology.twolc](https://github.com/giellalt//blob/main/src/fst/morphology/phonology.twolc)</small>
 
 ---
 
@@ -1011,7 +998,7 @@ word classes, or optionally from prefixes:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/root.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/root.lexc)</small>
 
 ---
 
@@ -1022,7 +1009,7 @@ Lindahl & Öhrling page XLV
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/adjectives.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/adjectives.lexc)</small>
 
 ---
 
@@ -1033,7 +1020,7 @@ Lindahl & Öhrling page XLIVff
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/nouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/nouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/nouns.lexc)</small>
 
 ---
 
@@ -1044,7 +1031,7 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/numerals.lexc)</small>
 
 ---
 
@@ -1055,7 +1042,7 @@ Pronouns in the 18th century Southern Saami language are words that may replace 
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
 
 ---
 
@@ -1068,7 +1055,7 @@ We first point to auxiliaries, then to the full list.
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/morphology/stems/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/verbs.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/verbs.lexc)</small>
 
 ---
 
@@ -1237,7 +1224,7 @@ retracted tongue root			_q
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
+<small>This (part of) documentation was generated from [src/fst/phonetics/txt2ipa.xfscript](https://github.com/giellalt//blob/main/src/fst/phonetics/txt2ipa.xfscript)</small>
 
 ---
 
@@ -1259,7 +1246,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-abbrevs2text.lexc](https://github.com/giellalt//blob/main/src/fst/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 ---
 
@@ -1275,7 +1262,7 @@ For example:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt//blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
 
@@ -1306,7 +1293,7 @@ The file contains:
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-symbols2text.lexc](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-symbols2text.lexc](https://github.com/giellalt//blob/main/src/fst/transcriptions/transcriptor-symbols2text.lexc)</small>
 
 ---
 
@@ -1610,7 +1597,7 @@ expression **WORD - premodifiers**.
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt//blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
 
 ---
 
@@ -1675,7 +1662,7 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
 
@@ -1740,7 +1727,7 @@ Finally we mark as a token any sequence making up a:
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-gramcheck-gt-desc.pmscript)</small>
 
 ---
 
@@ -1806,4 +1793,4 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 
 * * *
 
-<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-sju-x-sydlapsk/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
+<small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt//blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
