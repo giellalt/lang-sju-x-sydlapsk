@@ -34,6 +34,10 @@ LEXICON xv_oblique
 +Pl+Com:%>i # ;
 +Pl+Ess:%>in # ;
 
+!possessive suffixes
++Sg+Gen+PxSg3:%>s # ;
+
+
 LEXICON nc
 +N+Sg+Nom: # ;
 +N:        xc_oblique ;
