@@ -9,7 +9,7 @@ Personal ;
 !Demonstrative ;
 !Determiner ;
 !Relative ;
-!Reflexive ;
+Reflexive ;
 !Interrogative ;
 !Indefinita ;
 
@@ -44,12 +44,59 @@ LEXICON perssg
 ! Reflexive pronouns
 ! =================
 
-!LEXICON Reflexive
-!etj+Pron+Refl:etj refl ;
-!
-!
-!LEXICON refl
-!+Sg+Nom: # ;
+LEXICON Reflexive
+etj+Pron+Refl:etj refl ;
+etj+Pron+Refl:allas reflILL ;
+
+
+LEXICON refl
++Sg+Gen+PxSg1:e%>n # ;
+!+Sg+Gen+PxDu1:e%> # ;
++Sg+Gen+PxPl1:e%>ne # ;
++Sg+Acc+PxSg1:e%>m # ;
+!+Sg+Acc+PxDu1:e%> # ;
++Sg+Acc+PxPl1:e%>me # ;
++Sg+Com+PxPl1:i%>nan # ;
+
++Sg+Nom+PxPl2:e%>teh # ;
++Sg+Gen+PxSg2:e%>t # ;
++Sg+Gen+PxPl2:e%>te # ;
++Sg+Acc+PxSg2:e%>bt # ;
++Sg+Acc+PxPl2:e%>bte # ;
+
++Sg+Gen+PxSg3:e%>s # ;
++Sg+Gen+PxDu3:e%>ska # ;
++Sg+Gen+PxPl3:e%>se # ;
+!+Pl+Gen+PxSg3:e%>s # ;
++Pl+Gen+PxDu3:ei%>ska # ;
++Pl+Gen+PxPl3:ei%>sa # ;
++Sg+Acc+PxSg3:e%>bs # ;
++Sg+Acc+PxDu3:e%>bska # ;
++Sg+Acc+PxPl3:e%>bse # ;
++Sg+Acc+PxPl3:e%>bsa # ;
++Sg+Ine+PxPl3:ei%>snise # ;
++Sg+Ine+PxPl3:ei%>snase # ;
++Pl+Ine+PxPl3:i%>nase # ;
++Pl+Ine+PxPl3:ei%>nase # ;
++Sg+Ela+PxSg3:e%>stes # ;
++Sg+Ela+PxSg3:e%>stas # ;
++Sg+Com+PxPl3:ei%>nis # ;
+
+
+LEXICON reflILL
++Sg+Ill+PxSg1:a%>n # ;
+!+Sg+Ill+PxDu1:?%> # ;
++Sg+Ill+PxPl1:e%>ne # ;
++Sg+Ill+PxPl1:e%>me # ;
+
++Sg+Ill+PxSg2:a%>sat # ;
+!+Sg+Ill+PxDu2:?%> # ;
+!+Sg+Ill+PxDu3:?%> # ;
+
++Sg+Ill+PxSg3:a%>s # ;
++Sg+Ill+PxDu3:e%>ska # ;
++Sg+Ill+PxPl3:a%>se # ;
++Sg+Ill+PxPl3:e%>sa # ;
 
 
 ! vim: set ft=xfst-lexc:
