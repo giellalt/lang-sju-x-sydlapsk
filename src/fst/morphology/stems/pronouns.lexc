@@ -41,6 +41,16 @@ LEXICON perssg
 
 
 
+! Reflexive pronouns
+! =================
+
+!LEXICON Reflexive
+!etj+Pron+Refl:etj refl ;
+!
+!
+!LEXICON refl
+!+Sg+Nom: # ;
+
 
 ! vim: set ft=xfst-lexc:
 
