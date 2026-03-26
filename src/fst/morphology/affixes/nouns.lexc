@@ -16,6 +16,7 @@ LEXICON xv_oblique
 +Sg+Acc:%>b # ;
 +Sg+Ill:^EA%>i # ;
 +Sg+Ela:%>st # ;
++Sg+Ine:%>sne # ;
 +Sg+Ine:%>sn # ;
 +Sg+Ine:%>n # ;
 +Sg+Com:%>in # ;
