@@ -763,6 +763,15 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 Pronouns
 Pronouns in the 18th century Southern Saami language are words that may replace nouns or refer to participants in the conversation.
 
+Proper Nouns
+Proper Nouns in the 18th century Southern Saami language are words that...
+
+## OLSS ProperNouns
+
+Propernouns
+
+* **LEXICON ProperNoun   **
+
 Verbs
 The dictionary marks v.n. and v.a. Here, we add _ot and _et for the two infinitives.
 
@@ -1032,6 +1041,23 @@ Numerals in the 18th century Southern Saami language describe a nuerical quantit
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/numerals.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/numerals.lexc)</small>
+
+---
+
+## src-fst-morphology-stems-olss-propernouns.lexc.md 
+
+Proper Nouns
+Proper Nouns in the 18th century Southern Saami language are words that...
+
+## OLSS ProperNouns
+
+Propernouns
+
+* **LEXICON ProperNoun   **
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/olss-propernouns.lexc](https://github.com/giellalt//blob/main/src/fst/morphology/stems/olss-propernouns.lexc)</small>
 
 ---
 
