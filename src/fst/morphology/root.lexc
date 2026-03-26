@@ -161,6 +161,7 @@ LEXICON Root
  Particles   ;
 ! Prefixes    ;
  Pronouns    ;
+ ProperNoun ;
  Punctuation ;
  Symbols     ;
  Verbs       ;
