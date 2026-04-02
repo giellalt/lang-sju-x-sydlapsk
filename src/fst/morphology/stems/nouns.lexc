@@ -633,7 +633,6 @@ kätjo nv  " n.s. cura, inspectio, uppsikt, vård. Kätjo tawer, bona, quorum qu
 kätjetem nc  " n.s. contemplatio, betraktande. " ;
 kättjelem nc  " n.s. tentatio, periculum,  frestande, försök. Tjoutet kättjelemest, a tentatione liberare, 2. Pet. 2:9. " ;
 käujetem nc  " n.s. suspensio, upphängande. " ;
-käte nv "hand/arm" ;
 körjo nv  " n.s. lætitia, glädje. Se kirjo. Körjotet, lætari, fröjdas. Se kerjotet. " ;
 körro nv  " n.s. exsecratio, svordom. Se kirro. " ;
 labbek nc  " n.s. palus, sump, kärr. Se sais. " ;
@@ -1969,4 +1968,7 @@ wäto nv  " n.s. pignus certationis, sponsio, vad. In Theolog. wätto raje, curr
 !tjaktja  autumnus, höst. Tjaktja pelest, ineunte sive nova hieme, ab automno, ifrån hösten, i början av vintern. 
 !åiwe  caput, huvud. Almatjen åiwe, caput hominis, människohuvud. Åiwe sarjit, caput dolet. Åiweb kåptjet, caput tegere. Åiwist le, (in plural.) demens est, han är tokig. Åiwe jårråk, amens, stultus, tokig. Även vertiginosus, en som har svindel. Åiwe sarjes & åiwe swarke, cephalalgia, huvudvärk. Åiwe skure, cranium, huvudskål. Åiwe ålma & simpliciter åiwe, dux, princeps, hövitsman, huvudman. Åiweh påteh, optimates sive principes veniunt. Åiwen asse, se asse. Åiwe pekke, caput, pars libri, kapitel, (Th). Även åiwai, som adverb. Makson åiwai waddet, per anticipationem & in spem futuræ persolutionis dare, credere, lämna ut på betalning, borga. Åiwe tjåkk, vertex,  573 hjässa. Akten" ;
 
-
+! --- preliminary stuff
+kät N_EVEN_E "hand/arm" ;
+pardne nv "boy" ;
+nisun nc "woman" ;

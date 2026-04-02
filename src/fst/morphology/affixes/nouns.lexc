@@ -5,6 +5,15 @@
 LEXICON Cases
  +N+Sg+Nom:0   #     ;
 
+
+LEXICON N_EVEN_E
++N+Sg+Nom: # ;
++N+Sg+Nom:a # ;
++N:e xv_oblique ;
++N:a xv_oblique ;
++N: PX ; !possessive suffixes
+
+
 LEXICON nv
 +N+Sg+Nom: # ;
 +N: xv_oblique ;
@@ -30,6 +39,7 @@ LEXICON xv_oblique
 +Pl+Acc:%>it # ;
 +Pl+Ill:%>it # ;
 +Pl+Ill:%>iti # ;
++Pl+Ill:%>ita # ;
 +Pl+Ela:%>ist # ;
 +Pl+Ine:%>isne # ;
 +Pl+Ine:%>in # ;
