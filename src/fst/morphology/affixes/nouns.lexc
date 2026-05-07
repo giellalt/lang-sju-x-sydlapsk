@@ -29,10 +29,11 @@ LEXICON xv_oblique
 +Sg+Ine:%>sn # ;
 +Sg+Ine:%>n # ;
 +Sg+Com:%>in # ;
-+Sg+Abe:%>t # ;
-+Sg+Abe:%>tak # ;
-+Sg+Abe:%>taka # ;
 +Sg+Ess:%>n # ;
+
++Abe:%>t # ;
++Abe:%>tak # ;
++Abe:%>taka # ;
 
 +Pl+Nom:%>h # ;
 +Pl+Gen:%>i # ;
@@ -61,9 +62,10 @@ LEXICON xc_oblique
 +Sg+Ine:e%>sne # ;
 +Sg+Ine:e%>n # ;
 +Sg+Com:e%>in # ;
-+Sg+Abe:a%>tta # ;
-+Sg+Abe:e%>tta # ;
 +Sg+Ess:e%>n # ;
+
++Abe:a%>tta # ;
++Abe:e%>tta # ;
 
 +Pl+Nom:e%>h # ;
 +Pl+Gen:e%>i # ;

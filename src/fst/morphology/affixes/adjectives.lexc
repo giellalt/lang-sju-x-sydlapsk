@@ -37,11 +37,12 @@ LEXICON NUOR_oblique
 +Sg+Com:%>in # ;           ! nuorin      
 +Sg+Com+Use/NG:^EA%>in # ; ! nuorain
 +Sg+Com+Use/NG:%>i2n # ;   ! nuorein     
-+Sg+Abe:^EA%>tak # ;       ! nuoratak
-+Sg+Abe+Use/NG:^EA%>t # ;  ! nuorat
-+Sg+Abe+Use/NG:%>t # ;     ! nuoret
 +Sg+Ess:^EA%>n # ;         ! nuoran
 +Sg+Ess+Use/NG:%>n # ;     ! nuoren
+
++Abe:^EA%>tak # ;       ! nuoratak
++Abe+Use/NG:^EA%>t # ;  ! nuorat
++Abe+Use/NG:%>t # ;     ! nuoret
 
 +Pl+Nom:%>h # ;            ! nuoreh
 +Pl+Nom+Use/NG:^EA%>h # ;  ! nuorah
