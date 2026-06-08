@@ -1,3 +1,7 @@
+---
+generated: true
+---
+
 # 18th century Southern Saami language model documentation
 
 All doc-comment documentation in one large file.
@@ -165,6 +169,7 @@ Correction rules
 ---
 
 ## src-cg3-functions.cg3.md 
+
 
 
 S Y N T A C T I C   F U N C T I O N S   F O R   S Á M I
