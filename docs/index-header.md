@@ -1,4 +1,4 @@
-# 18th century Southern Saami documentation
+# Old Literary Southern Sámi documentation
 
 <div class="twocolumn map" markdown="1">
 
