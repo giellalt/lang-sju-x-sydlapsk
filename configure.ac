@@ -52,7 +52,7 @@ AC_SUBST([GLANG2], [sju-x-sydlapsk])
 AC_SUBST([GTLANG2], $GLANG2)
 # GLANGUAGE is the full language name as given by the ISO 639-3 file.
 # GTLANGUAGE is deprecated, defined for backwards compatibility.
-AC_SUBST([GLANGUAGE], ["18th century Southern Saami"])
+AC_SUBST([GLANGUAGE], ["Old Literary Southern Sámi"])
 AC_SUBST([GTLANGUAGE], $GLANGUAGE)
 
 ### Speller release version (usually different from the package version,

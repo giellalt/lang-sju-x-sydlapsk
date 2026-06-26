@@ -1,5 +1,5 @@
 remote_theme: giellalt/jekyll-theme-giellalt@main
-title: 18th century Southern Saami NLP Grammar
+title: Old Literary Southern Sámi NLP Grammar
 description: Finite state and Constraint Grammar based analysers, proofing tools and other resources
 plugins:
   - jekyll-remote-theme

@@ -4,7 +4,7 @@
 # - required: a full list of all files always merged
 # - optional: a full list of all files merged when the --optional flag is used with `gut template`
 name = "Language Template"
-patterns = ["sju-x-sydlapsk", "sju-x-sydlapsk", "18th century Southern Saami", "GPLv3", "sju-x-sydlapsk"]
+patterns = ["sju-x-sydlapsk", "sju-x-sydlapsk", "Old Literary Southern Sámi", "GPLv3", "sju-x-sydlapsk"]
 rev_id = 123
 required = [".gitignore",
             ".github/workflows/docsygen.yml",

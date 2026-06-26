@@ -13,7 +13,7 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !! # 18th century Southern Saami abbreviations
+! !! # Old Literary Southern Sámi abbreviations
 ! ========================================================================== !
 
 !! This file contains mappings from abbreviations and some acronyms to full
@@ -22,7 +22,7 @@
 !! to work. The resulting full form must be lemmas known to the analyser,
 !! for further processing.
 
-!! We describe here how abbreviations in 18th century Southern Saami are read out,
+!! We describe here how abbreviations in Old Literary Southern Sámi are read out,
 !! for text-to-speech systems.
 
 ! The transcriptions below are mostly in North Sámi, replace with whatever

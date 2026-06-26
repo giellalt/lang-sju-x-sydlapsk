@@ -1,14 +1,14 @@
 # Name of the speller package in various languages.
 # The default is English + autonym:
 [speller.name]
-en = "18th century Southern Saami spellchecker"
+en = "Old Literary Southern Sámi spellchecker"
 sju-x-sydlapsk = "Autonym spellchecker"
 
 # Description of the speller package in various languages.
 # The default is English + autonym:
 [speller.description]
-en = "A spellchecker for 18th century Southern Saami, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
-sju-x-sydlapsk = "TRANSLATE: A spellchecker for 18th century Southern Saami, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+en = "A spellchecker for Old Literary Southern Sámi, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
+sju-x-sydlapsk = "TRANSLATE: A spellchecker for Old Literary Southern Sámi, made by members of the language community, and by the Divvun and Giellatekno groups at UiT The Arctic University of Norway"
 
 [macos]
 system_pkg_id = "no.divvun.MacDivvun.sju-x-sydlapsk"
@@ -17,17 +17,17 @@ system_pkg_id = "no.divvun.MacDivvun.sju-x-sydlapsk"
 system_product_code = "{FACCB13E-BCED-4DE0-8BE0-8E7ACDB1E349}_is1"
 
 [package.speller]
-name = "18th century Southern Saami"
+name = "Old Literary Southern Sámi"
 version = "0.1.0"
 
 [package.grammar]
-name = "18th century Southern Saami"
+name = "Old Literary Southern Sámi"
 version = "0.1.0"
 
 [package.tts-textproc]
-name = "18th century Southern Saami"
+name = "Old Literary Southern Sámi"
 version = "0.1.0"
 
 [package.hyphenator]
-name = "18th century Southern Saami"
+name = "Old Literary Southern Sámi"
 version = "0.1.0"

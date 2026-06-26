@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for 18th century Southern Saami language
+! Divvun & Giellatekno - open source grammars for Old Literary Southern Sámi language
 ! Copyright © 2021 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -18,10 +18,10 @@
 ! to work.
 
 ! ========================================================================== !
-! !!            !!!18th century Southern Saami abbreviations                               !
+! !!            !!!Old Literary Southern Sámi abbreviations                               !
 ! ========================================================================== !
 
-!! We describe here how abbreviations are in 18th century Southern Saami are read out, e.g.
+!! We describe here how abbreviations are in Old Literary Southern Sámi are read out, e.g.
 !! for text-to-speech systems.
 
 LEXICON Root

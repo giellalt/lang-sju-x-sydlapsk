@@ -1,4 +1,4 @@
-! Divvun & Giellatekno - open source grammars for 18th century Southern Saami language
+! Divvun & Giellatekno - open source grammars for Old Literary Southern Sámi language
 ! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
 !
@@ -13,16 +13,16 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!18th century Southern Saami morphological analyser                      !
+! !!            !!!Old Literary Southern Sámi morphological analyser                      !
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF 18th century Southern Saami LANGUAGE.
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Old Literary Southern Sámi LANGUAGE.
  
 
 Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! ## Analysis symbols
 !  ----------------
-!! The morphological analyses of wordforms for the 18th century Southern Saami
+!! The morphological analyses of wordforms for the Old Literary Southern Sámi
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
@@ -150,7 +150,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 @U.number.nine@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 @U.number.zero@ !!≈ | @CODE@ | Flag used to give arabic numerals in smj different cases ;
 LEXICON Root
-!! The word forms in 18th century Southern Saami language start from the lexeme roots of basic
+!! The word forms in Old Literary Southern Sámi language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
  Adjectives  ;
  Adpositions ;

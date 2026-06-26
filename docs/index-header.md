@@ -18,11 +18,11 @@ Center location data taken from [Glottolog](https://glottolog.org/). Area extent
 
 </div>
 
-This page documents work on a language model for **18th century Southern Saami**, also known as **Sydlapska bokspråket**. 
+This page documents work on a language model for **Old Literary Southern Sámi**, also known as **Sydlapska bokspråket**. 
 
 # Project documentation
 
-The present language model is a finite-state transducer modeling 18th c Southern Saami, or *Sydlapska bokspråket*. The main source is Lindahl & Öhrling 1780. The goal of the language model is to analyse 18th and 19th c text.
+The present language model is a finite-state transducer modeling Old Literary Southern Sámi, or *Sydlapska bokspråket*. The main source is Lindahl & Öhrling 1780. The goal of the language model is to analyse 18th and 19th century text.
 
 # Background material
 

@@ -2,7 +2,7 @@
 {
   "type": "Feature",
   "properties": {
-    "name": "18th century Southern Saami",
+    "name": "Old Literary Southern Sámi",
     "radius": 200,
     "marker-color": "#ff4444",
     "marker-size": "large"
