@@ -28,13 +28,6 @@ Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-sju-
 for the Old Literary Southern Sámi language by using the [Divvun Installer](http://divvun.no)
 (some languages are only available via the nightly channel).
 
-Spell-checker accuracy:
-
-[![Speller
-Accuracy](https://img.shields.io/badge/Speller_Accuracy-XX_%25-green.svg)](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.html)
-[![Spell-checking accuracy development
-graph](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.svg)](https://giellalt.github.io/lang-sju-x-sydlapsk/speller-report.svg)
-
 Download and test speller files
 -------------------------------
 
