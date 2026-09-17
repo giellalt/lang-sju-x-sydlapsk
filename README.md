@@ -1,7 +1,7 @@
 The Old Literary Southern Sámi morphology and tools
 ====================================================
 
-[![Maturity](https://github.com/giellalt/lang-sju-x-sydlapsk/raw/generated/docs-data/fst-maturity.svg)](https://giellalt.github.io/MaturityClassification.html)
+[![Maturity](https://github.com/giellalt/lang-sju-x-sydlapsk/raw/generated/docs-data/pkg-maturity.svg)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://github.com/giellalt/lang-sju-x-sydlapsk/raw/generated/docs-data/fst-lemmacount.svg)
 [![Speller suggestion quality](https://github.com/giellalt/lang-sju-x-sydlapsk/raw/generated/docs-data/speller-suggestions.svg)](https://giellalt.github.io/lang-sju-x-sydlapsk/typosreport/)
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-sju-x-sydlapsk)](https://github.com/giellalt/lang-sju-x-sydlapsk/issues)
