@@ -19,8 +19,17 @@ Reflexive ;
 
 LEXICON Personal
 mon+Pron+Pers+Sg1:m  perssgN ;
-ton+Pron+Pers+Sg2:t  perssgDN ;
-son+Pron+Pers+Sg3:s  perssgDN ;
+mon+Pron+Pers+Du1:m  persdu ;
+mon+Pron+Pers+Pl1:m  perspl ;
+todn+Pron+Pers+Sg2:t  perssgDN ;
+todn+Pron+Pers+Sg2+Gen:aldat # ;
+todn+Pron+Pers+Du2:t  persdu ;
+todn+Pron+Pers+Pl2:t  perspl ;
+sodn+Pron+Pers+Sg3:s  perssgDN ;
+sodn+Pron+Pers+Sg3+Gen:alde # ;
+sodn+Pron+Pers+Du3:s  persdu ;
+sodn+Pron+Pers+Pl2:s  perspl ;
+
 
 
 LEXICON perssgN
@@ -34,11 +43,50 @@ perssg ;
 
 LEXICON perssg
 +Acc:o      # ;
-+Acc+Use/NG:onnob      # ;
++Acc:onnob      # ;
 +Gen:o      # ;
-+Gen+Use/NG:un      # ;
++Gen:un      # ;
++Ill:unji # ;
++Ine:usne # ;
++Ine:une # ;
++Ela:uste # ;
++Ela:ust # ;
++Com:uina # ;
++Com:uin # ;
++Ess:unjen # ;
 
+LEXICON persdu
++Nom:åj # ;
++Gen:onno # ;
++Gen:onon # ;
++Gen:onnon # ;
++Acc:onob # ;
++Acc:onnob # ;
++Ill:onoi # ;
++Ill:onnoi # ;
++Ine:onon # ;
++Ela:onost # ;
++Com:onoin # ;
++Com:onnoin # ;
++Ess:onon # ;
++Ess:onnon # ;
 
+LEXICON perspl
++Nom:ije # ;
++Gen:ija # ;
++Gen:ijan # ;
++Gen:ijen # ;
++Acc:ijab # ;
++Acc:ijeb # ;
++Ill:iji # ;
++Ine:ijan # ;
+!+Ine:ijesne # ; !evidence?
++Ela:ijast # ;
++Ela:ijest # ;
++Com:ijain # ;
++Com:ijin # ;
++Ess:ijan # ;
++Ess:ijen # ;
 
 
 ! Reflexive pronouns
@@ -46,6 +94,7 @@ LEXICON perssg
 
 LEXICON Reflexive
 etj+Pron+Refl:etj refl ;
+!etj+Pron+Refl:ald reflGEN ;
 etj+Pron+Refl:allas reflILL ;
 
 
@@ -83,13 +132,19 @@ LEXICON refl
 +Sg+Com+PxPl3:ei%>nis # ;
 
 
+LEXICON reflGEN
++Sg+Gen+PxSg2:a%>t # ;
++Sg+Gen+PxSg3:e # ;
+
 LEXICON reflILL
 +Sg+Ill+PxSg1:a%>n # ;
 !+Sg+Ill+PxDu1:?%> # ;
 +Sg+Ill+PxPl1:e%>ne # ;
 +Sg+Ill+PxPl1:e%>me # ;
++Sg+Ill+PxPl1:a%>ni # ;
 
-+Sg+Ill+PxSg2:a%>sat # ;
++Sg+Ill+PxSg2:a%>t # ;
++Sg+Ill+PxPl2:a%>te # ;
 !+Sg+Ill+PxDu2:?%> # ;
 !+Sg+Ill+PxDu3:?%> # ;
 
