@@ -84,6 +84,7 @@ LEXICON va_et_infl
 +Ind+Prt+Sg1:%>ib   #   ;
 +Ind+Prt+Sg2:%>ih   #   ;
 +Ind+Prt+Sg3:%>ai    #   ;
++Ind+Prt+Sg3:%>i    #   ;
 +Ind+Prt+Du1:%>aimen  #   ;
 +Ind+Prt+Du2:%>aiten  #   ;
 +Ind+Prt+Du3:%>aika #   ;
