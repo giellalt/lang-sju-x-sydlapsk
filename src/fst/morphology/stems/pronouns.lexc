@@ -6,7 +6,7 @@ LEXICON Pronouns
 !pronoun    Cases   ;
 
 Personal ;
-!Demonstrative ;
+Demonstrative ;
 !Determiner ;
 !Relative ;
 Reflexive ;
@@ -87,6 +87,49 @@ LEXICON perspl
 +Com:ijin # ;
 +Ess:ijan # ;
 +Ess:ijen # ;
+
+
+
+! Demonstrative pronouns
+! =================
+
+LEXICON Demonstrative
+
+! hic, den här
+tat+Pron+Dem+Sg+Nom:tat # ;
+tat+Pron+Dem+Sg+Gen:tan # ;
+tat+Pron+Dem+Sg+Acc:tab # ;
+tat+Pron+Dem+Sg+Acc:tabma # ;
+tat+Pron+Dem+Sg+Ill:tassa # ;
+tat+Pron+Dem+Sg+Ill:tas # ;
+tat+Pron+Dem+Sg+Ine:tasne # ;
+tat+Pron+Dem+Sg+Ine:tane # ;
+tat+Pron+Dem+Sg+Ine:tanne # ;
+tat+Pron+Dem+Sg+Ela:tast # ;
+tat+Pron+Dem+Sg+Ela:taste # ;
+tat+Pron+Dem+Sg+Ela:tate # ;
+tat+Pron+Dem+Sg+Com:taina # ;
+tat+Pron+Dem+Sg+Com:tain # ;
+tat+Pron+Dem+Sg+Abe:tabta # ;
+
+tat+Pron+Dem+Pl+Nom:tah # ;
+tat+Pron+Dem+Pl+Gen:tai # ;
+tat+Pron+Dem+Pl+Acc:tait # ;
+tat+Pron+Dem+Pl+Acc:taite # ;
+tat+Pron+Dem+Pl+Ill:tait # ;
+tat+Pron+Dem+Pl+Ill:taite # ;
+tat+Pron+Dem+Pl+Ill:taiti # ;
+tat+Pron+Dem+Pl+Ine:taidne # ;
+tat+Pron+Dem+Pl+Ine:taine # ;
+tat+Pron+Dem+Pl+Ine:taisne # ;
+tat+Pron+Dem+Pl+Ela:taiste # ;
+tat+Pron+Dem+Pl+Ela:taist # ;
+tat+Pron+Dem+Pl+Com:tai # ;
+!tat+Pron+Dem+Pl+Abe:?? # ;
+!tat+Pron+Dem+Pl+Ess:?? # ;
+
+tat+Pron+Dem+Ess:tan # ;
+
 
 
 ! Reflexive pronouns
