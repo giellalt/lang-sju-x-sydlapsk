@@ -4,8 +4,43 @@ Postpositions ;
 PrePostpositions ;
 
 LEXICON Postpositions
-nal PostP ;
-faron PostP ;
+autelen PostP "before" ;
+auteli PostP "in front of" ;
+autelt PostP "before" ;
+autest PostP "for; for the sake of" ;
+auti PostP "in front of" ;
+faron PostP "with; in the company of" ;
+kaskan PostP "among; between" ;
+kasken PostP "among; between" ;
+kuoren PostP "beside" ;
+kåik PostP "to; in direction to" ;
+ludne PostP "at; at somseone's place, with someone" ;
+lute PostP "from; from someone's place, from the company of someone" ;
+melt PostP "according to" ;
+mete PostP "according to" ;
+nal PostP "on" ;
+nalne PostP "on" ;
+nalte PostP "from; from the top of" ;
+palden PostP "beside" ;
+pajel PostP "over" ;
+pajlet PostP "from; from the upper side" ;
+!rajai PostP "?" ; !maybe more of a noun in the ill.
+sisa PostP "into" ;
+sisne PostP "in" ;
+siste PostP "out of; out from" ;
+sisnjelen PostP "inside" ;
+sisnjeli PostP "into; to the inside of" ;
+tet PostP "for; for the sake of" ;
+ulkolen PostP "outside of" ;
+ulkoli PostP "to the outside of" ;
+wuolen PostP "under" ;
+wuollai PostP "under; (in direction) in under " ;
+wuost PostP "against" ;
+wuoste PostP "against" ;
+
+LEXICON PrePostpositions
+pira PrePost "around" ;
+paldelen PrePost "except; without; in addition to" ;
 
 
 ! PoS tags added below:
