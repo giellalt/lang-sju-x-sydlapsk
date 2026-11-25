@@ -2057,15 +2057,15 @@ situd nc "vilja" ; ! LexLap 1780: id 7414
 siwwo nv "håg" ; ! LexLap 1780: id 7453
 siälo nv "själ" ; ! LexLap 1780: id 7475
 sjabmahem nc "glädjebetygelse" ; ! LexLap 1780: id 7289
-sjadde nv "se sjatte" ; ! LexLap 1780: id 7290
+!sjadde nv "se sjatte" ; ! LexLap 1780: id 7290; commented out because of V sjaddet
 sjaddelwas nc "växt" ; ! LexLap 1780: id 7293
 sjaddem nc "tillväxt" ; ! LexLap 1780: id 7300
-sjaddet nc "se sjatte" ; ! LexLap 1780: id 7290
+!sjaddet nc "se sjatte" ; ! LexLap 1780: id 7290; commented out because of V sjaddet
 sjaddo nv "frukt" ; ! LexLap 1780: id 7295
 sjaljo nv "slätt eller gård omkring hus. Även; torg. Även; slätt mark, slätt. Överfört" ; ! LexLap 1780: id 7303
 sjalk nc "hårda och väl uppkörda vägar om vintern" ; ! LexLap 1780: id 7304
 sjalme nv "ögat på en nål eller en yxa, eller något dylikt verktyg. Finska: ”silmä”, öga" ; ! LexLap 1780: id 7306
-sjatte nv "en myckenhet av spår efter kreatur och boskap. Man säger ibland" ; ! LexLap 1780: id 7312
+!sjatte nv "en myckenhet av spår efter kreatur och boskap. Man säger ibland" ; ! LexLap 1780: id 7312; commented out because of V sjattet
 sjeke nv "sätt" ; ! LexLap 1780: id 7332
 sjeudnjed nc "mörker" ; ! LexLap 1780: id 7337
 sjeunjed nc "mörker" ; ! LexLap 1780: id 7337
