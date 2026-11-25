@@ -3,10 +3,7 @@
 !! Lindahl & Öhrling page XLIVff
 
 LEXICON Nouns
-attje:attje nv "pater" ;
 kabmak:kabmak nc "sko" ;
-usto:usto nv "lust" ;
-akka:akka nv " hustru" ;
 almats:almatj nc ;
 
 ! vim: set ft=xfst-lexc:
